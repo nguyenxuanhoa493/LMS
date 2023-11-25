@@ -1,0 +1,3834 @@
+[
+    {
+        "id": "6543688bf4157760657b29bd",
+        "iid": "11473638",
+        "ntype": "path",
+        "name": "Bé làm quen với Tiếng Anh",
+        "type": "program-module",
+        "hours": 0,
+        "path": 11473637,
+        "by_path": 1,
+        "code": "Be-lam-quen-voi-Tieng-Anh",
+        "avatar": "https://hocngoaingu-api.lotuslms.com/ufiles/2023/11/64e5d8967cd7f5650e586bff/655da14ec597da59320b4025.png",
+        "u": {
+            "id": "64e5d8967cd7f5650e586bff",
+            "iid": 670843,
+            "code": "hocngoaingu",
+            "name": "hocngoaingu",
+            "mail": "hocngoaingu@smartlms.vn"
+        },
+        "children": [
+            {
+                "id": "65435cf205755a5ffb32e243",
+                "iid": "11472253",
+                "ntype": "syllabus",
+                "duration": "03:54:00",
+                "name": "Bảng chữ cái(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473638,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Bảng chữ cái</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "4MMW-1700725750",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472253,
+                    11472252,
+                    11472174,
+                    11472184,
+                    11472194,
+                    11472204,
+                    11472214,
+                    11472224,
+                    11472234,
+                    11472244,
+                    11472251
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/sco/57986ac16803fa841d06ac25.png",
+                "id_mapping": "58bcd5281d41c82701450ed1",
+                "clone_from": "other",
+                "iid_mapping": 57810,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913522,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "BCC",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725751,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436088864515465639e4b4",
+                "avatar_file_id": "65435e645f472d7c15489b9e",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915160,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "03:54:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473638
+            },
+            {
+                "id": "65435cf3a25b1178f759b01f",
+                "iid": "11472275",
+                "ntype": "syllabus",
+                "duration": "36:00",
+                "name": "Các số đếm(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473638,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các số đếm</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "2Qek-1700725752",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472275,
+                    11472274,
+                    11472273
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacsodem.png",
+                "id_mapping": "58bcd8851d41c82831445ae1",
+                "clone_from": "other",
+                "iid_mapping": 57823,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913523,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CSD",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725753,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608a2842b876f7254330",
+                "avatar_file_id": "65435e625f472d7c15489b9a",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915160,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "36:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473638
+            },
+            {
+                "id": "65435cf4d6e0542aba520d82",
+                "iid": "11472291",
+                "ntype": "syllabus",
+                "duration": "21:00",
+                "name": "Các thứ trong tuần(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473638,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các thứ trong tuần</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "OkX0-1700725753",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472291,
+                    11472290,
+                    11472289
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacthutrongtuan.png",
+                "id_mapping": "58bcd8bc1d41c8286c15dba1",
+                "clone_from": "other",
+                "iid_mapping": 57827,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913524,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CTT",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725754,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608bb7994041a62e0d44",
+                "avatar_file_id": "65435e635f472d7c15489b9c",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915160,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "21:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473638
+            }
+        ],
+        "count": 3,
+        "status": "queued",
+        "metadata": [
+            {
+                "id": "65435cf205755a5ffb32e243",
+                "iid": "11472253",
+                "ntype": "syllabus",
+                "duration": "03:54:00",
+                "name": "Bảng chữ cái(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473638,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Bảng chữ cái</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "4MMW-1700725750",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472253,
+                    11472252,
+                    11472174,
+                    11472184,
+                    11472194,
+                    11472204,
+                    11472214,
+                    11472224,
+                    11472234,
+                    11472244,
+                    11472251
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/sco/57986ac16803fa841d06ac25.png",
+                "id_mapping": "58bcd5281d41c82701450ed1",
+                "clone_from": "other",
+                "iid_mapping": 57810,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913522,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "BCC",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725751,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436088864515465639e4b4",
+                "avatar_file_id": "65435e645f472d7c15489b9e",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915160,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "03:54:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473638
+            },
+            {
+                "id": "65435cf3a25b1178f759b01f",
+                "iid": "11472275",
+                "ntype": "syllabus",
+                "duration": "36:00",
+                "name": "Các số đếm(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473638,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các số đếm</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "2Qek-1700725752",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472275,
+                    11472274,
+                    11472273
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacsodem.png",
+                "id_mapping": "58bcd8851d41c82831445ae1",
+                "clone_from": "other",
+                "iid_mapping": 57823,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913523,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CSD",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725753,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608a2842b876f7254330",
+                "avatar_file_id": "65435e625f472d7c15489b9a",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915160,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "36:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473638
+            },
+            {
+                "id": "65435cf4d6e0542aba520d82",
+                "iid": "11472291",
+                "ntype": "syllabus",
+                "duration": "21:00",
+                "name": "Các thứ trong tuần(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473638,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các thứ trong tuần</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "OkX0-1700725753",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472291,
+                    11472290,
+                    11472289
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacthutrongtuan.png",
+                "id_mapping": "58bcd8bc1d41c8286c15dba1",
+                "clone_from": "other",
+                "iid_mapping": 57827,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913524,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CTT",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725754,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608bb7994041a62e0d44",
+                "avatar_file_id": "65435e635f472d7c15489b9c",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915160,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "21:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473638
+            }
+        ],
+        "academic_categories": [
+            11464160
+        ],
+        "organizations": [
+            10508481
+        ],
+        "price": 0,
+        "freeze": 0,
+        "depth": -1,
+        "pid": 11473637,
+        "duration": null
+    },
+    {
+        "id": "654368942e83f4638a519bf0",
+        "iid": "11473639",
+        "ntype": "path",
+        "name": "Bé & Các vật dụng quen thuộc",
+        "type": "program-module",
+        "hours": 0,
+        "path": 11473637,
+        "by_path": 1,
+        "code": "Be-Cac-vat-dung-quen-thuoc",
+        "avatar": "https://hocngoaingu-api.lotuslms.com/ufiles/2023/11/64e5d8967cd7f5650e586bff/655da17fbd023471fe063b08.png",
+        "u": {
+            "id": "64e5d8967cd7f5650e586bff",
+            "iid": 670843,
+            "code": "hocngoaingu",
+            "name": "hocngoaingu",
+            "mail": "hocngoaingu@smartlms.vn"
+        },
+        "children": [
+            {
+                "id": "65435cf513d1455c286f6502",
+                "iid": "11472309",
+                "ntype": "syllabus",
+                "duration": "27:00",
+                "name": "Đồ dùng học tập(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473639,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Đồ dùng học tập</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "kiK0-1700725755",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472309,
+                    11472308,
+                    11472307
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/betoitruong.png",
+                "id_mapping": "58bcd8a91d41c828595c2c52",
+                "clone_from": "other",
+                "iid_mapping": 57825,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913525,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "DDH",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725755,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608c13d1455c286f6530",
+                "avatar_file_id": "65435e635f472d7c15489b9b",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915161,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "27:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473639
+            },
+            {
+                "id": "65435cf9bfb0104d6c1ea129",
+                "iid": "11472383",
+                "ntype": "syllabus",
+                "duration": "51:00",
+                "name": "Đồ dùng gia đình(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473639,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Đồ dùng gia đình</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "g4pB-1700725759",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472383,
+                    11472382,
+                    11472372,
+                    11472381
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/dodunggiadinh.PNG",
+                "id_mapping": "58bcd8ff1d41c8286f4c14b2",
+                "clone_from": "other",
+                "iid_mapping": 57833,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913529,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "DDG",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725759,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/654360910a73d477935cfec2",
+                "avatar_file_id": "65435e625f472d7c15489b98",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915162,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "51:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473639
+            },
+            {
+                "id": "65435cf6c9cfc767923f0bcc",
+                "iid": "11472337",
+                "ntype": "syllabus",
+                "duration": "54:00",
+                "name": "Đồ ăn, đồ uống(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473639,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Đồ ăn, đồ uống</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "7cH1-1700725756",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472337,
+                    11472336,
+                    11472325,
+                    11472335
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/doandouong.png",
+                "id_mapping": "58bcd9131d41c8284520ba11",
+                "clone_from": "other",
+                "iid_mapping": 57834,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913526,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "DAD",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725757,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608e5f472d7c15489bcd",
+                "avatar_file_id": "65435e635f472d7c15489b9d",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915161,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "54:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473639
+            },
+            {
+                "id": "65435cf8099a2a03153781e5",
+                "iid": "11472356",
+                "ntype": "syllabus",
+                "duration": "30:00",
+                "name": "Các loại quần áo(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473639,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các loại quần áo</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "hnLs-1700725757",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472356,
+                    11472355,
+                    11472354
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacloaiquanao.png",
+                "id_mapping": "58bcd9531d41c82862059802",
+                "clone_from": "other",
+                "iid_mapping": 57837,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913528,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CLQ",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725758,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608f0204b6349f02b0b4",
+                "avatar_file_id": "65435e625f472d7c15489b99",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915161,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "30:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473639
+            }
+        ],
+        "count": 4,
+        "status": "queued",
+        "metadata": [
+            {
+                "id": "65435cf513d1455c286f6502",
+                "iid": "11472309",
+                "ntype": "syllabus",
+                "duration": "27:00",
+                "name": "Đồ dùng học tập(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473639,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Đồ dùng học tập</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "kiK0-1700725755",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472309,
+                    11472308,
+                    11472307
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/betoitruong.png",
+                "id_mapping": "58bcd8a91d41c828595c2c52",
+                "clone_from": "other",
+                "iid_mapping": 57825,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913525,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "DDH",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725755,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608c13d1455c286f6530",
+                "avatar_file_id": "65435e635f472d7c15489b9b",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915161,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "27:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473639
+            },
+            {
+                "id": "65435cf9bfb0104d6c1ea129",
+                "iid": "11472383",
+                "ntype": "syllabus",
+                "duration": "51:00",
+                "name": "Đồ dùng gia đình(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473639,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Đồ dùng gia đình</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "g4pB-1700725759",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472383,
+                    11472382,
+                    11472372,
+                    11472381
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/dodunggiadinh.PNG",
+                "id_mapping": "58bcd8ff1d41c8286f4c14b2",
+                "clone_from": "other",
+                "iid_mapping": 57833,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913529,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "DDG",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725759,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/654360910a73d477935cfec2",
+                "avatar_file_id": "65435e625f472d7c15489b98",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915162,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "51:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473639
+            },
+            {
+                "id": "65435cf6c9cfc767923f0bcc",
+                "iid": "11472337",
+                "ntype": "syllabus",
+                "duration": "54:00",
+                "name": "Đồ ăn, đồ uống(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473639,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Đồ ăn, đồ uống</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "7cH1-1700725756",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472337,
+                    11472336,
+                    11472325,
+                    11472335
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/doandouong.png",
+                "id_mapping": "58bcd9131d41c8284520ba11",
+                "clone_from": "other",
+                "iid_mapping": 57834,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913526,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "DAD",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725757,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608e5f472d7c15489bcd",
+                "avatar_file_id": "65435e635f472d7c15489b9d",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915161,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "54:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473639
+            },
+            {
+                "id": "65435cf8099a2a03153781e5",
+                "iid": "11472356",
+                "ntype": "syllabus",
+                "duration": "30:00",
+                "name": "Các loại quần áo(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473639,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các loại quần áo</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "hnLs-1700725757",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472356,
+                    11472355,
+                    11472354
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacloaiquanao.png",
+                "id_mapping": "58bcd9531d41c82862059802",
+                "clone_from": "other",
+                "iid_mapping": 57837,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913528,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CLQ",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725758,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543608f0204b6349f02b0b4",
+                "avatar_file_id": "65435e625f472d7c15489b99",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915161,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "30:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473639
+            }
+        ],
+        "academic_categories": [
+            11464160
+        ],
+        "organizations": [
+            10508481
+        ],
+        "price": 0,
+        "freeze": 0,
+        "depth": -1,
+        "pid": 11473637,
+        "duration": null
+    },
+    {
+        "id": "6543689cf68a9d78c9408698",
+        "iid": "11473640",
+        "ntype": "path",
+        "name": "Bé & Khám phá",
+        "type": "program-module",
+        "hours": 0,
+        "path": 11473637,
+        "by_path": 1,
+        "code": "Be-Kham-pha",
+        "avatar": "https://hocngoaingu-api.lotuslms.com/ufiles/2023/11/64e5d8967cd7f5650e586bff/655da18ca02ce3c776007eb4.png",
+        "u": {
+            "id": "64e5d8967cd7f5650e586bff",
+            "iid": 670843,
+            "code": "hocngoaingu",
+            "name": "hocngoaingu",
+            "mail": "hocngoaingu@smartlms.vn"
+        },
+        "children": [
+            {
+                "id": "65435cfa52db2734cb7428ea",
+                "iid": "11472401",
+                "ntype": "syllabus",
+                "duration": "27:00",
+                "name": "Cảm xúc(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Cảm xúc</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "freeze": 0,
+                "slug": "Gw0j-1700725760",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472401,
+                    11472400,
+                    11472399
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/camxuc.png",
+                "id_mapping": "58bcd8351d41c82823655671",
+                "clone_from": "other",
+                "iid_mapping": 57820,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913530,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CXV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725760,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/654360926ab1470f870beed6",
+                "avatar_file_id": "65435e605f472d7c15489b97",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915162,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "27:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435cfb076c1b11ba26320e",
+                "iid": "11472419",
+                "ntype": "syllabus",
+                "duration": "27:00",
+                "name": "Màu sắc(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Màu sắc</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "vtXM-1700725761",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472419,
+                    11472418,
+                    11472417
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/mausac.png",
+                "id_mapping": "58bcd8131d41c8281a1319d1",
+                "clone_from": "other",
+                "iid_mapping": 57819,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913531,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "MSV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725762,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436093dc83b25a6478b872",
+                "avatar_file_id": "65435e605f472d7c15489b96",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915162,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "27:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435cfd97fdaa7644404366",
+                "iid": "11472469",
+                "ntype": "syllabus",
+                "duration": "24:00",
+                "name": "Thời tiết(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Thời tiết</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "GAxn-1700725764",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472469,
+                    11472468,
+                    11472467
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/thoitiet.png",
+                "id_mapping": "58bcd8501d41c8283247e4d1",
+                "clone_from": "other",
+                "iid_mapping": 57821,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913533,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "TTV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725764,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436095887e0f27c270f2a8",
+                "avatar_file_id": "65435e5f5f472d7c15489b93",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915163,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "24:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435cfc650966618452b2bd",
+                "iid": "11472452",
+                "ntype": "syllabus",
+                "duration": "36:00",
+                "name": "Cơ thể người(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Cơ thể người</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "ZCsz-1700725762",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472452,
+                    11472451,
+                    11472433,
+                    11472439,
+                    11472450
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cothenguoi.png",
+                "id_mapping": "58bcd97f1d41c828981d2d61",
+                "clone_from": "other",
+                "iid_mapping": 57839,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913532,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CTN",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725763,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436094396e8909736fbde9",
+                "avatar_file_id": "65435e605f472d7c15489b95",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915163,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "36:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435cff824cd659026f2cc0",
+                "iid": "11472512",
+                "ntype": "syllabus",
+                "duration": "01:30:00",
+                "name": "Các con vật(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các con vật</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "approved",
+                "slug": "GGqa-1700725765",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472512,
+                    11472511,
+                    11472483,
+                    11472490,
+                    11472495,
+                    11472502,
+                    11472510
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacconvat.png",
+                "id_mapping": "58bcd7fa1d41c827d3073321",
+                "clone_from": "other",
+                "iid_mapping": 57818,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913535,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CCV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725766,
+                "ancestor_organizations": [],
+                "dirty": 0,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/654360968bb40e35433cb634",
+                "avatar_file_id": "65435e5f5f472d7c15489b92",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915163,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    },
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1700726991,
+                        "u": {
+                            "name": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn",
+                            "code": "hocngoaingu",
+                            "phone": "",
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "01:30:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435d00887e0f27c270f281",
+                "iid": "11472527",
+                "ntype": "syllabus",
+                "duration": "18:00",
+                "name": "Các hình khối(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các hình khối</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "JxIo-1700725766",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472527,
+                    11472526,
+                    11472525
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cachinhkhoi.png",
+                "id_mapping": "58bcd8d21d41c8286f4c14b1",
+                "clone_from": "other",
+                "iid_mapping": 57829,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913536,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CHK",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725767,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609767b8d24b2255c856",
+                "avatar_file_id": "65435e605f472d7c15489b94",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915164,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "18:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435d01d30e7c586c4bb8af",
+                "iid": "11472546",
+                "ntype": "syllabus",
+                "duration": "30:00",
+                "name": "Các loại xe(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các loại xe</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "DPId-1700725768",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472546,
+                    11472545,
+                    11472544
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacphuongtiengiaothong.png",
+                "id_mapping": "58bcd9681d41c8284520ba12",
+                "clone_from": "other",
+                "iid_mapping": 57838,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913537,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CLX",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725768,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436098f4157760657b2985",
+                "avatar_file_id": "65435e695f472d7c15489bab",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915164,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "30:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435d04cc5eef3c976f3e03",
+                "iid": "11472588",
+                "ntype": "syllabus",
+                "duration": "21:00",
+                "name": "Gia đình của bé(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Gia đình của bé</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "zVNt-1700725771",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472588,
+                    11472587,
+                    11472586
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/giadinhcuabe.png",
+                "id_mapping": "58bcd8eb1d41c828781c4f41",
+                "clone_from": "other",
+                "iid_mapping": 57831,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913540,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "GDC",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725772,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609aede50f567037ae9c",
+                "avatar_file_id": "65435e695f472d7c15489baa",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915165,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "21:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435d020204b6349f02b088",
+                "iid": "11472572",
+                "ntype": "syllabus",
+                "duration": "48:00",
+                "name": "Nghề nghiệp(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Nghề nghiệp</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "vNDS-1700725769",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472572,
+                    11472571,
+                    11472561,
+                    11472570
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/nghenghiep.png",
+                "id_mapping": "58bcd9bc1d41c828781c4f42",
+                "clone_from": "other",
+                "iid_mapping": 57842,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913538,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "NNV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725770,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609943658d763f7fd81f",
+                "avatar_file_id": "65435e695f472d7c15489bac",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915164,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "48:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            }
+        ],
+        "count": 9,
+        "status": "queued",
+        "metadata": [
+            {
+                "id": "65435cfa52db2734cb7428ea",
+                "iid": "11472401",
+                "ntype": "syllabus",
+                "duration": "27:00",
+                "name": "Cảm xúc(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Cảm xúc</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "freeze": 0,
+                "slug": "Gw0j-1700725760",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472401,
+                    11472400,
+                    11472399
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/camxuc.png",
+                "id_mapping": "58bcd8351d41c82823655671",
+                "clone_from": "other",
+                "iid_mapping": 57820,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913530,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CXV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725760,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/654360926ab1470f870beed6",
+                "avatar_file_id": "65435e605f472d7c15489b97",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915162,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "27:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435cfb076c1b11ba26320e",
+                "iid": "11472419",
+                "ntype": "syllabus",
+                "duration": "27:00",
+                "name": "Màu sắc(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Màu sắc</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "vtXM-1700725761",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472419,
+                    11472418,
+                    11472417
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/mausac.png",
+                "id_mapping": "58bcd8131d41c8281a1319d1",
+                "clone_from": "other",
+                "iid_mapping": 57819,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913531,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "MSV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725762,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436093dc83b25a6478b872",
+                "avatar_file_id": "65435e605f472d7c15489b96",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915162,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "27:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435cfd97fdaa7644404366",
+                "iid": "11472469",
+                "ntype": "syllabus",
+                "duration": "24:00",
+                "name": "Thời tiết(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Thời tiết</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "GAxn-1700725764",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472469,
+                    11472468,
+                    11472467
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/thoitiet.png",
+                "id_mapping": "58bcd8501d41c8283247e4d1",
+                "clone_from": "other",
+                "iid_mapping": 57821,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913533,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "TTV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725764,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436095887e0f27c270f2a8",
+                "avatar_file_id": "65435e5f5f472d7c15489b93",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915163,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "24:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435cfc650966618452b2bd",
+                "iid": "11472452",
+                "ntype": "syllabus",
+                "duration": "36:00",
+                "name": "Cơ thể người(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Cơ thể người</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "ZCsz-1700725762",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472452,
+                    11472451,
+                    11472433,
+                    11472439,
+                    11472450
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cothenguoi.png",
+                "id_mapping": "58bcd97f1d41c828981d2d61",
+                "clone_from": "other",
+                "iid_mapping": 57839,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913532,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CTN",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725763,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436094396e8909736fbde9",
+                "avatar_file_id": "65435e605f472d7c15489b95",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915163,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "36:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435cff824cd659026f2cc0",
+                "iid": "11472512",
+                "ntype": "syllabus",
+                "duration": "01:30:00",
+                "name": "Các con vật(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các con vật</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "approved",
+                "slug": "GGqa-1700725765",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472512,
+                    11472511,
+                    11472483,
+                    11472490,
+                    11472495,
+                    11472502,
+                    11472510
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacconvat.png",
+                "id_mapping": "58bcd7fa1d41c827d3073321",
+                "clone_from": "other",
+                "iid_mapping": 57818,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913535,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CCV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725766,
+                "ancestor_organizations": [],
+                "dirty": 0,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/654360968bb40e35433cb634",
+                "avatar_file_id": "65435e5f5f472d7c15489b92",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915163,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    },
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1700726991,
+                        "u": {
+                            "name": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn",
+                            "code": "hocngoaingu",
+                            "phone": "",
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "01:30:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435d00887e0f27c270f281",
+                "iid": "11472527",
+                "ntype": "syllabus",
+                "duration": "18:00",
+                "name": "Các hình khối(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các hình khối</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "JxIo-1700725766",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472527,
+                    11472526,
+                    11472525
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cachinhkhoi.png",
+                "id_mapping": "58bcd8d21d41c8286f4c14b1",
+                "clone_from": "other",
+                "iid_mapping": 57829,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913536,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CHK",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725767,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609767b8d24b2255c856",
+                "avatar_file_id": "65435e605f472d7c15489b94",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915164,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "18:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435d01d30e7c586c4bb8af",
+                "iid": "11472546",
+                "ntype": "syllabus",
+                "duration": "30:00",
+                "name": "Các loại xe(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các loại xe</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "DPId-1700725768",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472546,
+                    11472545,
+                    11472544
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacphuongtiengiaothong.png",
+                "id_mapping": "58bcd9681d41c8284520ba12",
+                "clone_from": "other",
+                "iid_mapping": 57838,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913537,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CLX",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725768,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/65436098f4157760657b2985",
+                "avatar_file_id": "65435e695f472d7c15489bab",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915164,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "30:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435d04cc5eef3c976f3e03",
+                "iid": "11472588",
+                "ntype": "syllabus",
+                "duration": "21:00",
+                "name": "Gia đình của bé(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Gia đình của bé</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "zVNt-1700725771",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472588,
+                    11472587,
+                    11472586
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/giadinhcuabe.png",
+                "id_mapping": "58bcd8eb1d41c828781c4f41",
+                "clone_from": "other",
+                "iid_mapping": 57831,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913540,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "GDC",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725772,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609aede50f567037ae9c",
+                "avatar_file_id": "65435e695f472d7c15489baa",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915165,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "21:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            },
+            {
+                "id": "65435d020204b6349f02b088",
+                "iid": "11472572",
+                "ntype": "syllabus",
+                "duration": "48:00",
+                "name": "Nghề nghiệp(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473640,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Nghề nghiệp</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "vNDS-1700725769",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472572,
+                    11472571,
+                    11472561,
+                    11472570
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/nghenghiep.png",
+                "id_mapping": "58bcd9bc1d41c828781c4f42",
+                "clone_from": "other",
+                "iid_mapping": 57842,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913538,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "NNV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725770,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609943658d763f7fd81f",
+                "avatar_file_id": "65435e695f472d7c15489bac",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915164,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "48:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473640
+            }
+        ],
+        "academic_categories": [
+            11464160
+        ],
+        "organizations": [
+            10508481
+        ],
+        "price": 0,
+        "freeze": 0,
+        "depth": -1,
+        "pid": 11473637,
+        "duration": null
+    },
+    {
+        "id": "654368a6f411ab3a0f07810c",
+        "iid": "11473641",
+        "ntype": "path",
+        "name": "Bé & Các hoạt động",
+        "type": "program-module",
+        "hours": 0,
+        "path": 11473637,
+        "by_path": 1,
+        "code": "Be-Cac-hoat-dong",
+        "avatar": "https://hocngoaingu-api.lotuslms.com/ufiles/2023/11/64e5d8967cd7f5650e586bff/655da1abe2b02b1d8f04cc80.png",
+        "u": {
+            "id": "64e5d8967cd7f5650e586bff",
+            "iid": 670843,
+            "code": "hocngoaingu",
+            "name": "hocngoaingu",
+            "mail": "hocngoaingu@smartlms.vn"
+        },
+        "children": [
+            {
+                "id": "65435d05775bbb7c7d2793c7",
+                "iid": "11472605",
+                "ntype": "syllabus",
+                "duration": "24:00",
+                "name": "Hoạt động của bé(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473641,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Hoạt động của bé</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "z2LP-1700725772",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472605,
+                    11472604,
+                    11472603
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/hoatdongcuabe.png",
+                "id_mapping": "58bcd93e1d41c8286c15dba2",
+                "clone_from": "other",
+                "iid_mapping": 57836,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913541,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "HDC",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725773,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609b2841fb22c304a88c",
+                "avatar_file_id": "65435e695f472d7c15489bad",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915165,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "24:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473641
+            },
+            {
+                "id": "65435d066ab1470f870beeb3",
+                "iid": "11472618",
+                "ntype": "syllabus",
+                "duration": "12:00",
+                "name": "Các trò chơi(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473641,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các trò chơi</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "oasJ-1700725774",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472618,
+                    11472617,
+                    11472616
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cactrochoi.png",
+                "id_mapping": "58bcd9291d41c828725f83e1",
+                "clone_from": "other",
+                "iid_mapping": 57835,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913542,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CTC",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725774,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609cefbfb11d28052158",
+                "avatar_file_id": "65435e675f472d7c15489ba6",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915165,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "12:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473641
+            },
+            {
+                "id": "65435d07fff68b158f46c889",
+                "iid": "11472635",
+                "ntype": "syllabus",
+                "duration": "24:00",
+                "name": "Chơi thể thao(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473641,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Chơi thể thao</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "ZYUP-1700725775",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472635,
+                    11472634,
+                    11472633
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacmonthethao.png",
+                "id_mapping": "58bcd9951d41c8289c471ef1",
+                "clone_from": "other",
+                "iid_mapping": 57840,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913543,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CTT",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725776,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609e396e8909736fbded",
+                "avatar_file_id": "65435e675f472d7c15489ba7",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915166,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "24:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473641
+            },
+            {
+                "id": "65435d0897fdaa764440437a",
+                "iid": "11472651",
+                "ntype": "syllabus",
+                "duration": "21:00",
+                "name": "Âm nhạc(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473641,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Âm nhạc</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "J8FQ-1700725776",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472651,
+                    11472650,
+                    11472649
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/amnhac.png",
+                "id_mapping": "58bcd9a91d41c828944e97b1",
+                "clone_from": "other",
+                "iid_mapping": 57841,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913544,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "ANV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725777,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609f81e46b07de7d47d8",
+                "avatar_file_id": "65435e685f472d7c15489ba8",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915166,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    },
+                    {
+                        "comment": "",
+                        "status": "queued",
+                        "ts": 1699590225,
+                        "u": {
+                            "name": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn",
+                            "code": "hocngoaingu",
+                            "phone": "",
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843
+                        }
+                    },
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1699590227,
+                        "u": {
+                            "name": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn",
+                            "code": "hocngoaingu",
+                            "phone": "",
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "21:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473641
+            }
+        ],
+        "count": 4,
+        "status": "queued",
+        "metadata": [
+            {
+                "id": "65435d05775bbb7c7d2793c7",
+                "iid": "11472605",
+                "ntype": "syllabus",
+                "duration": "24:00",
+                "name": "Hoạt động của bé(Từ Vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473641,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Hoạt động của bé</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "z2LP-1700725772",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472605,
+                    11472604,
+                    11472603
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/hoatdongcuabe.png",
+                "id_mapping": "58bcd93e1d41c8286c15dba2",
+                "clone_from": "other",
+                "iid_mapping": 57836,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913541,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "HDC",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725773,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609b2841fb22c304a88c",
+                "avatar_file_id": "65435e695f472d7c15489bad",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915165,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "24:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473641
+            },
+            {
+                "id": "65435d066ab1470f870beeb3",
+                "iid": "11472618",
+                "ntype": "syllabus",
+                "duration": "12:00",
+                "name": "Các trò chơi(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473641,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Các trò chơi</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "oasJ-1700725774",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472618,
+                    11472617,
+                    11472616
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cactrochoi.png",
+                "id_mapping": "58bcd9291d41c828725f83e1",
+                "clone_from": "other",
+                "iid_mapping": 57835,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913542,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CTC",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725774,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609cefbfb11d28052158",
+                "avatar_file_id": "65435e675f472d7c15489ba6",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915165,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "12:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473641
+            },
+            {
+                "id": "65435d07fff68b158f46c889",
+                "iid": "11472635",
+                "ntype": "syllabus",
+                "duration": "24:00",
+                "name": "Chơi thể thao(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473641,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Chơi thể thao</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "ZYUP-1700725775",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472635,
+                    11472634,
+                    11472633
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/cacmonthethao.png",
+                "id_mapping": "58bcd9951d41c8289c471ef1",
+                "clone_from": "other",
+                "iid_mapping": 57840,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913543,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "CTT",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725776,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609e396e8909736fbded",
+                "avatar_file_id": "65435e675f472d7c15489ba7",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915166,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "24:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473641
+            },
+            {
+                "id": "65435d0897fdaa764440437a",
+                "iid": "11472651",
+                "ntype": "syllabus",
+                "duration": "21:00",
+                "name": "Âm nhạc(Từ vựng)",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473641,
+                "by_path": 1,
+                "max_depth": 2,
+                "content": "<p>Âm nhạc</p>",
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "status": "queued",
+                "slug": "J8FQ-1700725776",
+                "weight_scheme": "absolute",
+                "tracking_line": [
+                    11472651,
+                    11472650,
+                    11472649
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/hocvetkids/amnhac.png",
+                "id_mapping": "58bcd9a91d41c828944e97b1",
+                "clone_from": "other",
+                "iid_mapping": 57841,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913544,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "ANV",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725777,
+                "ancestor_organizations": [],
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/6543609f81e46b07de7d47d8",
+                "avatar_file_id": "65435e685f472d7c15489ba8",
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915166,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    },
+                    {
+                        "comment": "",
+                        "status": "queued",
+                        "ts": 1699590225,
+                        "u": {
+                            "name": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn",
+                            "code": "hocngoaingu",
+                            "phone": "",
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843
+                        }
+                    },
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1699590227,
+                        "u": {
+                            "name": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn",
+                            "code": "hocngoaingu",
+                            "phone": "",
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "aggregated_duration": "21:00",
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473641
+            }
+        ],
+        "academic_categories": [
+            11464160
+        ],
+        "organizations": [
+            10508481
+        ],
+        "price": 0,
+        "freeze": 0,
+        "depth": -1,
+        "pid": 11473637,
+        "duration": null
+    },
+    {
+        "id": "654368af241617426f38f015",
+        "iid": "11473642",
+        "ntype": "path",
+        "name": "Bé học tiếng anh qua các bài hát",
+        "type": "program-module",
+        "hours": 0,
+        "path": 11473637,
+        "by_path": 1,
+        "code": "Be-hoc-tieng-anh-qua-cac-bai-hat",
+        "avatar": "https://hocngoaingu-api.lotuslms.com/ufiles/2023/11/64e5d8967cd7f5650e586bff/655da1bd77571db7e20baaac.png",
+        "u": {
+            "id": "64e5d8967cd7f5650e586bff",
+            "iid": 670843,
+            "code": "hocngoaingu",
+            "name": "hocngoaingu",
+            "mail": "hocngoaingu@smartlms.vn"
+        },
+        "children": [
+            {
+                "id": "65435d15f4157760657b2963",
+                "iid": "11472833",
+                "ntype": "syllabus",
+                "name": "kidsongs",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473642,
+                "by_path": 1,
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "subject": "eng",
+                "status": "queued",
+                "slug": "Aydi-1700725778",
+                "weight_scheme": "absolute",
+                "level": 1,
+                "tracking_line": [
+                    11472833,
+                    11472668,
+                    11472659,
+                    11472667,
+                    11472678,
+                    11472669,
+                    11472677,
+                    11472686,
+                    11472679,
+                    11472685,
+                    11472694,
+                    11472687,
+                    11472693,
+                    11472701,
+                    11472695,
+                    11472700,
+                    11472711,
+                    11472702,
+                    11472710,
+                    11472726,
+                    11472712,
+                    11472725,
+                    11472736,
+                    11472727,
+                    11472735,
+                    11472749,
+                    11472737,
+                    11472748,
+                    11472758,
+                    11472750,
+                    11472757,
+                    11472770,
+                    11472759,
+                    11472769,
+                    11472778,
+                    11472771,
+                    11472777,
+                    11472786,
+                    11472779,
+                    11472785,
+                    11472795,
+                    11472787,
+                    11472794,
+                    11472804,
+                    11472796,
+                    11472803,
+                    11472813,
+                    11472805,
+                    11472812,
+                    11472822,
+                    11472814,
+                    11472821,
+                    11472832,
+                    11472823,
+                    11472831
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    },
+                    {
+                        "id": "534a14139c513f8c71000003",
+                        "iid": 139,
+                        "name": "Anna",
+                        "roles": [
+                            "teacher",
+                            "staff"
+                        ]
+                    },
+                    {
+                        "id": "534a14e99c513fe771000000",
+                        "iid": 140,
+                        "name": "Sandy",
+                        "roles": [
+                            "teacher",
+                            "staff"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/kidsongs/howareyoubancokhoekhong.png",
+                "id_mapping": "578f411f6803faeb5b7b23c7",
+                "clone_from": "other",
+                "iid_mapping": 52964,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913557,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "K",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725793,
+                "ancestor_organizations": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/654360a0d49cbd0f562d0d45",
+                "avatar_file_id": "65435e685f472d7c15489ba9",
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915167,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473642,
+                "duration": null
+            }
+        ],
+        "count": 1,
+        "status": "queued",
+        "metadata": [
+            {
+                "id": "65435d15f4157760657b2963",
+                "iid": "11472833",
+                "ntype": "syllabus",
+                "name": "kidsongs",
+                "type": "syllabus",
+                "sub_type": "syllabus_normal",
+                "path": 11473642,
+                "by_path": 1,
+                "u": {
+                    "id": "5142da1a9c513f4a09000018",
+                    "iid": 16,
+                    "name": "Steve Tran"
+                },
+                "subject": "eng",
+                "status": "queued",
+                "slug": "Aydi-1700725778",
+                "weight_scheme": "absolute",
+                "level": 1,
+                "tracking_line": [
+                    11472833,
+                    11472668,
+                    11472659,
+                    11472667,
+                    11472678,
+                    11472669,
+                    11472677,
+                    11472686,
+                    11472679,
+                    11472685,
+                    11472694,
+                    11472687,
+                    11472693,
+                    11472701,
+                    11472695,
+                    11472700,
+                    11472711,
+                    11472702,
+                    11472710,
+                    11472726,
+                    11472712,
+                    11472725,
+                    11472736,
+                    11472727,
+                    11472735,
+                    11472749,
+                    11472737,
+                    11472748,
+                    11472758,
+                    11472750,
+                    11472757,
+                    11472770,
+                    11472759,
+                    11472769,
+                    11472778,
+                    11472771,
+                    11472777,
+                    11472786,
+                    11472779,
+                    11472785,
+                    11472795,
+                    11472787,
+                    11472794,
+                    11472804,
+                    11472796,
+                    11472803,
+                    11472813,
+                    11472805,
+                    11472812,
+                    11472822,
+                    11472814,
+                    11472821,
+                    11472832,
+                    11472823,
+                    11472831
+                ],
+                "staff": [
+                    {
+                        "id": "5142da1a9c513f4a09000018",
+                        "iid": 16,
+                        "name": "Steve Tran",
+                        "roles": [
+                            "root"
+                        ]
+                    },
+                    {
+                        "id": "534a14139c513f8c71000003",
+                        "iid": 139,
+                        "name": "Anna",
+                        "roles": [
+                            "teacher",
+                            "staff"
+                        ]
+                    },
+                    {
+                        "id": "534a14e99c513fe771000000",
+                        "iid": 140,
+                        "name": "Sandy",
+                        "roles": [
+                            "teacher",
+                            "staff"
+                        ]
+                    }
+                ],
+                "freeze": 0,
+                "depth": -1,
+                "avatar": "/hocvet-media/hocvet-web//hocvet-images/kidsongs/howareyoubancokhoekhong.png",
+                "id_mapping": "578f411f6803faeb5b7b23c7",
+                "clone_from": "other",
+                "iid_mapping": 52964,
+                "school": "hocngoaingu",
+                "dmn": "hocngoaingu",
+                "ts": 1698913557,
+                "private": 0,
+                "counter": [],
+                "skill": [],
+                "code": "K",
+                "rubric_iid": 11464146,
+                "updated_ts": 1700725793,
+                "ancestor_organizations": [],
+                "avatar_directory_url": "https://static-cloud.lotuslms.com/2023/11/02/ff/64e5d8967cd7f5650e586bff/654360a0d49cbd0f562d0d45",
+                "avatar_file_id": "65435e685f472d7c15489ba9",
+                "dirty": 1,
+                "download_materials_histories": [],
+                "organizations": [
+                    10508481
+                ],
+                "teacher_materials_histories": [],
+                "approved_history": [
+                    {
+                        "comment": "",
+                        "status": "approved",
+                        "ts": 1698915167,
+                        "u": {
+                            "id": "64e5d8967cd7f5650e586bff",
+                            "iid": 670843,
+                            "name": "hocngoaingu",
+                            "code": "hocngoaingu",
+                            "mail": "hocngoaingu@smartlms.vn"
+                        }
+                    }
+                ],
+                "academic_categories": [
+                    11464160
+                ],
+                "original_language": "vn",
+                "count": 0,
+                "pid": 11473642,
+                "duration": null
+            }
+        ],
+        "academic_categories": [
+            11464160
+        ],
+        "organizations": [
+            10508481
+        ],
+        "price": 0,
+        "freeze": 0,
+        "depth": -1,
+        "pid": 11473637,
+        "duration": null
+    }
+]
