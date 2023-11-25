@@ -18,7 +18,11 @@ INFO = {
     },
     "alpha-test": {"api": "https://api-alpha.test.lotuslms.com", "password": "1"},
     "btg": {"api": "https://lyluanchinhtri-api.melisoft.vn", "password": "meli@2022"},
-    "uni": {"api": "https://center-api.smartlms.vn", "password": "uni123"},
+    "uni": {
+        "api": "https://center-api.smartlms.vn",
+        "password": "uni123",
+        "password_root": "vieted@2021",
+    },
     "th": {
         "api": "https://taphuan-api.csdl.edu.vn",
         "password": "taphuan@viettel@2022",
@@ -32,7 +36,7 @@ INFO = {
 
 class New:
     def __init__(
-        self, type="alpha", api="", dmn="", user_code="", password="", debug=False
+        self, type_dmn="alpha", api="", dmn="", user_code="", password="", debug=False
     ):
         """
         type: [alpha,alpha-test,btg,uni] mặc định là alpha
@@ -42,16 +46,16 @@ class New:
         password: mặc định theo pass master. Nhập nếu cần password riêng
         """
         print(f"Đang khởi tạo school : {dmn}")
-        self.type = type
+        self.type_dmn = type_dmn
         self.user_code = user_code if user_code else dmn
         self.password = (
             password
             if password
-            else INFO[type]["password"]
+            else INFO[type_dmn]["password"]
             if user_code != "root"
-            else INFO[type]["password_root"]
+            else INFO[type_dmn]["password_root"]
         )
-        self.api = api if api else INFO[type]["api"]
+        self.api = api if api else INFO[type_dmn]["api"]
         self.debug = debug
         self.url = "https://" + dmn + ".lotuslms.com"
         self.dmn = dmn
@@ -123,7 +127,7 @@ class New:
 def login(self, user_code="", password=""):
     user_code = user_code if user_code else self.user_code
     password = password if password else self.password
-    url = "/user/login-from-viettel-sso" if self.type == "th" else "/user/login"
+    url = "/user/login-from-viettel-sso" if self.type_dmn == "th" else "/user/login"
     payload = {"lname": user_code, "pass": password}
     response = self.send(url, payload)
     try:
