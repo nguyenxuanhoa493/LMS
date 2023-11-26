@@ -1,16 +1,16 @@
 import subprocess, os, urllib
 
 
-def get_value_of_index_in_list(input_list: list, index: int, default=False):
+def get_value(input_data, key, default=False):
     """
-    Lấy giá trị thứ index trong mảng input_list.
+    Lấy giá trị key trong input_data.
     Nếu không có thì sẽ trả về:
     - False nếu không có default
     - default nếu có default
     """
     try:
-        return input_list[index]
-    except IndexError:
+        return input_data[key]
+    except:
         return default if default else False
 
 
@@ -44,7 +44,6 @@ def save_file(url_file, folder_path, fle_name):
         url_file,
         os.path.join(folder_path, fle_name),
     )
-    open_folder(folder_path)
 
 
 def get_path_full(sub_path):

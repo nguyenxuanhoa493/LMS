@@ -7,8 +7,7 @@ from API.attendance import get_import_id, import_attendance
 
 # truyền vào dmn và  ds link import điểm danh
 dmn = sys.argv[1]
-list_file = sys.argv[2]
-list_file = list_file = sys.argv[2].split(",")
+list_file = sys.argv[2].split(",")
 
 school = lms.New(dmn=dmn)
 for file in list_file:
