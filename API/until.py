@@ -1,4 +1,4 @@
-import subprocess, os, urllib
+import subprocess, os, urllib, platform
 
 
 def get_value(input_data, key, default=False):
@@ -33,7 +33,15 @@ def clear_file_name(file_name):
 
 def open_folder(folder_path):
     if os.path.exists(folder_path):
-        subprocess.Popen(["explorer", folder_path], shell=True)
+        system_platform = platform.system().lower()
+        if system_platform == "darwin":
+            # macOS
+            subprocess.Popen(["open", folder_path])
+        elif system_platform == "windows":
+            # Windows
+            subprocess.Popen(["explorer", folder_path], shell=True)
+        else:
+            print(f"Hệ điều hành '{system_platform}' không được hỗ trợ.")
     else:
         print(f"Thư mục '{folder_path}' không tồn tại.")
 

@@ -1,27 +1,4 @@
-from .until import save_file, clear_file_name, get_value
-from .attendance import get_url_file_import_attendance
-from .session import get_session_of_course, attendance_one_user
-
-
-class New:
-    def __init__(self, school, iid_course) -> None:
-        self.school = school
-        self.iid = iid_course
-        self.detail = get_detail_of_course(self.school, self.iid)
-        self.users = get_member_of_course(self.school, self.iid)
-        self.sessions = get_session_of_course(self.school, self.iid)
-        self.syllabus_iid = self.detail["syllabus"]
-
-    def download_file_import_attendance(self, folder_path):
-        file_name = clear_file_name(self.detail["name"])
-        full_name = f"{self.iid} - {file_name}.xlsx"
-        url_file = get_url_file_import_attendance(self.school, self.iid)
-        save_file(url_file, folder_path, full_name)
-
-    def attentdent_all(self):
-        for session in self.sessions:
-            for user in self.users:
-                attendance_one_user(self.school, self.iid, session, user)
+from .until import get_value
 
 
 def get_detail_of_course(self, iid_course):
@@ -34,7 +11,7 @@ def get_detail_of_course(self, iid_course):
     }
     response = self.send("/api/v2/syllabus/get", payload)
     print(f"Course: {iid_course} - {response['result']['name']}")
-    return response["result"]
+    return get_value(response, "result")
 
 
 def get_member_of_course(self, iid_course):
@@ -72,3 +49,15 @@ def get_list_course_of_ep(self, iid_ep):
     else:
         print(f"{iid_ep} không có course nào")
         return []
+
+
+def create_contest(self, iid_course):
+    payload = {"iid": iid_course}
+    response = self.send("/course/contest/create-contest", payload)
+    print(response)
+
+
+def delete(self, id_course):
+    payload = {"id": id_course}
+    response = self.send("/course/delete", payload)
+    print(response["message"])

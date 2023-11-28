@@ -1,8 +1,8 @@
 import logging as log
-import sys
-
+import sys, os
 import requests
 import urllib3
+from . import course, session, attendance, until, file
 
 urllib3.disable_warnings()
 
@@ -123,6 +123,43 @@ class New:
         if response["success"]:
             print(f"Domain {self.dmn} đã được set pass master: {pass_master}")
 
+    def course(self, iid_course, load_data=False):
+        return Newcourse(self, iid_course, load_data)
+
+
+class Newcourse:
+    def __init__(self, school, iid_course, load_data):
+        self.school = school
+        self.iid = iid_course
+        if load_data:
+            self.detail = course.get_detail_of_course(self.school, self.iid)
+            self.syllabus_iid = self.detail["syllabus"]
+            self.users = course.get_member_of_course(self.school, self.iid)
+            self.sessions = session.get_session_of_course(self.school, self.iid)
+
+    def download_file_import_attendance(self, folder_path):
+        file_name = until.clear_file_name(self.detail["name"])
+        full_name = f"{self.iid} - {file_name}.xlsx"
+        url_file = attendance.get_url_file_import_attendance(self.school, self.iid)
+        until.save_file(url_file, folder_path, full_name)
+
+    def import_attendance(self, file_import):
+        file_uploaded = file.upload(self.school, file_import)
+        import_id = attendance.get_import_id(self.school, file_uploaded, self.iid)
+        attendance.import_attendance(self.school, import_id, self.iid)
+
+    def attentdent(self, list_user=[]):
+        for s in self.sessions:
+            for u in self.users:
+                if (list_user and u["iid"] in list_user) or not list_user:
+                    session.attendance_one_user(self.school, self.iid, s, u)
+
+    def creat_contest(self):
+        course.create_contest(self.school, self.iid)
+
+    def delete(self):
+        course.delete(self.school, self.detail["id"])
+
 
 def login(self, user_code="", password=""):
     user_code = user_code if user_code else self.user_code
@@ -130,8 +167,8 @@ def login(self, user_code="", password=""):
     url = "/user/login-from-viettel-sso" if self.type_dmn == "th" else "/user/login"
     payload = {"lname": user_code, "pass": password}
     response = self.send(url, payload)
-    try:
-        response = response["result"]
+    response = until.get_value(response, "result")
+    if response:
         info = {
             "_sand_token": response["token"],
             "_sand_uiid": response["iid"],
@@ -140,15 +177,12 @@ def login(self, user_code="", password=""):
         self.param.update(info)
         if user_code == "root":
             self.param.update({"_sand_domain": "system"})
-        organizations = response.get("organizations", "")
-        self.organizations = organizations[0] if organizations else {}
         print(
             f"Đã login bằng tài khoản: {response['code']} - {response['iid']} - {response['name']}"
         )
         return response
-    except Exception as err:
+    else:
         print(f"Lỗi đăng nhập tài khoản {user_code} - mật khẩu: {password}")
-        print(err)
         sys.exit()
 
 
