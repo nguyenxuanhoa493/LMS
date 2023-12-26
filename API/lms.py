@@ -2,7 +2,8 @@ import logging as log
 import sys, os
 import requests
 import urllib3
-from . import course, session, attendance, until, file
+from .course import Newcourse
+from . import until
 
 urllib3.disable_warnings()
 
@@ -31,6 +32,8 @@ INFO = {
         "api": "https://elearning-api.evn.com.vn",
         "password": "vieted@2022@123",
     },
+    "hocngoaingu": {"api": "https://hocngoaingu-api.lotuslms.com", "password": "123"},
+    "bgg": {"api": "https://lms-api.bacgiang.gov.vn", "password": 1},
 }
 
 
@@ -81,8 +84,7 @@ class New:
         )
         if self.debug:
             loging(url, payload, response.text)
-        if response.status_code == 200:
-            return response.json()
+        return response.json()
 
     def clone(self, item_iid, item_type):
         payload = {"iid": item_iid, "ntype": item_type}
@@ -127,47 +129,13 @@ class New:
         return Newcourse(self, iid_course, load_data)
 
 
-class Newcourse:
-    def __init__(self, school, iid_course, load_data):
-        self.school = school
-        self.iid = iid_course
-        if load_data:
-            self.detail = course.get_detail_of_course(self.school, self.iid)
-            self.syllabus_iid = self.detail["syllabus"]
-            self.users = course.get_member_of_course(self.school, self.iid)
-            self.sessions = session.get_session_of_course(self.school, self.iid)
-
-    def download_file_import_attendance(self, folder_path):
-        file_name = until.clear_file_name(self.detail["name"])
-        full_name = f"{self.iid} - {file_name}.xlsx"
-        url_file = attendance.get_url_file_import_attendance(self.school, self.iid)
-        until.save_file(url_file, folder_path, full_name)
-
-    def import_attendance(self, file_import):
-        file_uploaded = file.upload(self.school, file_import)
-        import_id = attendance.get_import_id(self.school, file_uploaded, self.iid)
-        attendance.import_attendance(self.school, import_id, self.iid)
-
-    def attentdent(self, list_user=[]):
-        for s in self.sessions:
-            for u in self.users:
-                if (list_user and u["iid"] in list_user) or not list_user:
-                    session.attendance_one_user(self.school, self.iid, s, u)
-
-    def creat_contest(self):
-        course.create_contest(self.school, self.iid)
-
-    def delete(self):
-        course.delete(self.school, self.detail["id"])
-
-
 def login(self, user_code="", password=""):
     user_code = user_code if user_code else self.user_code
     password = password if password else self.password
     url = "/user/login-from-viettel-sso" if self.type_dmn == "th" else "/user/login"
     payload = {"lname": user_code, "pass": password}
     response = self.send(url, payload)
-    response = until.get_value(response, "result")
+    response = until.get_value(response, key="result")
     if response:
         info = {
             "_sand_token": response["token"],

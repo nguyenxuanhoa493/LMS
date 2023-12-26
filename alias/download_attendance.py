@@ -2,7 +2,7 @@ import sys, os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ""))
 from API import lms, course
-from API.until import get_path_full, open_folder, get_value
+from API.until import open_folder, get_value
 
 dmn = sys.argv[1]
 school = lms.New(dmn=dmn)
@@ -13,8 +13,9 @@ if type_target == "ep":
     list_target = [item["iid"] for sublist in list_target for item in sublist]
 else:
     list_target = list_iid
-
-folder_path = get_path_full("session/import")
+folder_path = os.path.join(
+    os.path.join(os.path.dirname(__file__), ".."), "session", "import"
+)
 for iid_course in list_target:
     course_target = school.course(iid_course, load_data=True)
     course_target.download_file_import_attendance(folder_path)

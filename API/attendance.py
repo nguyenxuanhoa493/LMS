@@ -8,8 +8,8 @@ def get_url_file_import_attendance(self, iid_course):
     return response["objects"]["url"]
 
 
-def get_import_id(self, attachments, iid_course):
-    payload = {"import_file": attachments["link"], "course_iid": iid_course}
+def get_import_id(self, url, iid_course):
+    payload = {"import_file": url, "course_iid": iid_course}
     response = self.send("/attendance/import/import", payload)
     return response["result"]["import_id"]
 

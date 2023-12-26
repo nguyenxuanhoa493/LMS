@@ -1,5 +1,3 @@
-import sys, os
-
-a = os.path.join(os.path.dirname(__file__), "..", "", "sesion", "import")
-
+a = [1, 2, 3]
+a.reverse()
 print(a)

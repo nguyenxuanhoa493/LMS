@@ -1,24 +1,412 @@
-DEBUG:root:https://alpha-api.lotuslms.com/user/login
-DEBUG:root:{'lname': 'testvieted', 'pass': '#Homnaycungphailam-_-', 'submit': '1', '_sand_ajax': '1', '_sand_platform': '3', '_sand_readmin': '1', '_sand_is_wan': 'false', '_sand_ga_sessionToken': '', '_sand_ga_browserToken': '', '_sand_domain': 'testvieted', '_sand_masked': ''}
-DEBUG:root:{"success":true,"result":{"birthday":1160586300,"id":"629db35918937776971f5d27","schools":["system","testvieted"],"ga_secret":"I3TXFKBVXMFSBEI3","name":"CBQL\u0110T","have_enter_temis_profile_info":1,"phone":"0394080294","user_organizations":[3404044],"mail":"testvieted@smartlms.vn","lname":"testvieted","code":"testvieted","ts":"1654502233","avatar":"","devices":[{"id":"36f0f306e8571c15","type":1,"fcm_token":"dGfxHnHxTr28dix2GZNgfd:APA91bFQ2tYyNzkUrG893RWkjqCqY7B7tQIMYOfyeP2IrDVTah5xstqvc52Qizb5wXKVi2X_hUNjljHR_QQFlJICcA9YoIwvtGFJR_frhDwdmj-O9D5zJc-M1_dDPbFNJqPCdM1cEKP8"},{"id":"75603515b69154c4","type":1,"fcm_token":"d1g2LRPmQNuQoJm527ibk5:APA91bElpEqfUmmFB49axRXnSRvKOMgcIx0fDx0yXUYHKhxSf5Tc2wMGLYMp0gHC558z9LSj7QmvF2g7K_IZ_GZxqdPYn8B-puuqepzXcf_V1NmY3_aKTxDZihgo89K_hnr2SUIUDEuB"}],"apply_job_date":"0","settings":{"language":"vn"},"counter":{"money":0,"vmoney":0,"tm":0},"is_register":"1","iid":517008,"birthplace":null,"modified_phone_ts":null,"phone_support":null,"leader_position":null,"force_re_enter_profile_info":0,"missing_training_grades_in_registration":null,"is_gv_cot_can_dot_1":null,"is_quan_ly_cot_can_dot_1":null,"have_to_register_for_training":null,"hrms":null,"default_home_page":null,"grade":null,"ga_enabled":null,"is_parent":null,"working_mode":null,"current_position":null,"phongban_id":null,"identification_code_encrypted":null,"identification_code":null,"sub_leader_position":null,"assessment_phase":null,"must_change_pass_before_using_system":null,"job_position_promoted_date":null,"referrer_iid":null,"import_id":null,"ms_teams_email":null,"ms_teams_user_principal_name":null,"identification_card":null,"identification_card_date":null,"identification_card_place":null,"nationality":null,"is_anon":null,"position":null,"iid_mapping":null,"id_mapping":null,"widget":[],"positions":[],"campus_iids":[],"license":[],"ancestor_organizations":[],"phongbans":[],"have_missions_in_domain":[],"cot_can_data":[],"top_menus":[],"children_of_parent":[],"role_in_site":null,"affiliate_roles":[],"status":"activated","organizations":[{"name":"T\u1ec9nh h\u1ed3 ch\u00ed minh","code":"testvieted","slug":"testvieted","short_name":"testvieted","iid":3404044,"dmn":"testvieted","school":"testvieted","ntype":"organization","type":"organization","pid":"0","status":"init","sub_type":1,"level":0,"ancestor_iids":[],"ac":"tinh ho chi minh testvieted","updated_ts":1698394153,"data_cached":1,"id":"629db33218937776971f5719"}],"phongbans_objects":[],"can_skip_profile":1,"can_skip_temis_profile":1,"roles":["testvieted:staff","lms:staff","testvieted:root","system:staff","tech:staff"],"is_teacher":false,"default_avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/06\/27\/629db35918937776971f5d27\/6548b2ede006277ea726119e.jfif","sex":"0","ethnicity":"\u0110\u1ed1ng \u0110a","external":0,"token":"94e9d_CbMOp","pass":1,"isRoot":true,"isStaff":true},"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng","is_guest":false,"hasSystemMessage":false,"ts":"","server_ts":1700957574}
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): alpha-api.lotuslms.com:443
-DEBUG:urllib3.connectionpool:https://alpha-api.lotuslms.com:443 "POST /course/my HTTP/1.1" 200 None
-DEBUG:root:https://alpha-api.lotuslms.com/course/my
-DEBUG:root:{'_sand_get_total': 1, '_sand_step': 'enrolment_plan', 'enrolment_plans': 12772111, 'submit': '1', '_sand_ajax': '1', '_sand_platform': '3', '_sand_readmin': '1', '_sand_is_wan': 'false', '_sand_ga_sessionToken': '', '_sand_ga_browserToken': '', '_sand_domain': 'testvieted', '_sand_masked': '', '_sand_token': '94e9d_CbMOp', '_sand_uiid': 517008, '_sand_uid': '629db35918937776971f5d27'}
-DEBUG:root:{"success":true,"result":[{"_id":"655d6b5d3c04e66f990178be","school":"testvieted","dmn":"testvieted","allow_feedback":false,"counter":{"money":0,"vmoney":0,"students":10},"status":"approved","learning_type":"ilt","allow_teacher_add_new_session":1,"code":"z4dcF0Ni4r-12771116-12772111","credit_syllabus":12771116,"enrolment_plans":[12772111],"name":"syllabus 22.11","organizations":[3404044],"start_date":1700586000,"end_date":1700845199,"avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/22\/27\/629db35918937776971f5d27\/655d644bcb425adc900d464b.png","avatar_file_id":"655d644bcb425adc900d464b","avatar_directory_url":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/22\/27\/629db35918937776971f5d27\/655d644c7aacad3bba03f62f","ntype":"course","syllabus":12771116,"sub_type":"syllabus_scorm","iid":12772142,"ts":1700621149,"u":{"id":"629db35918937776971f5d27","iid":517008,"name":"CBQL\u0110T","code":"testvieted","mail":"testvieted@smartlms.vn","phone":"0394080294"},"slug":"syllabus-22-11","academic_categories":[3408825],"rubric_iid":10214128,"course_layout":null,"private":1,"public_course_type":0,"external_contest_code":null,"active":1,"ancestor_organizations":[],"updated_ts":1700621346,"stats":{"marking":{"detail":[]},"passed":1,"total_members":10,"total_commented_by_gvsp":0},"last_synced":1700621168,"certificate_ids":["651e2a67f01aad3055780382"],"sequential_learning":0,"id":"655d6b5d3c04e66f990178be","organizations_name":["T\u1ec9nh h\u1ed3 ch\u00ed minh"],"__expand":{"group":null,"semester":null,"staff_with_roles":[]},"staff":[],"syllabus_course_number_users_min":null,"syllabus_course_number_users_max":null,"default_avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/09\/27\/629db35918937776971f5d27\/654c3fcad7769c2d8f688c23.png","publish_levels":[{"key":"open","name":"open"},{"key":"intranet","name":"intranet"},{"key":"office","name":"office"}],"detail_academic_categories":[{"dmn":"testvieted","name":"QUAN TR\u1eaeC M\u00d4I TR\u01af\u1edcNG LAO \u0110\u1ed8NG","code":"QUAN-TRAC-MOI-TRUONG-LAO-DONG","type":"academic","u":{"id":"629db35918937776971f5d27","iid":517008,"name":"testvieted","mail":"testvieted@smartlms.vn"},"ts":1654502398,"status":"approved","ac":"quan trac moi truong lao dong","school":"testvieted","ntype":"category","level":0,"pid":"0","slug":"quan-trac-moi-truong-lao-dong","ancestor_iids":[],"updated_ts":1655696755,"iid":3408825,"id":"629db3fe18937776971f720f"}],"attendance_deadline":{"deadline":1700845199,"deadline_is_over":true},"marking_deadline":{"deadline":1700845199,"deadline_is_over":true}},{"_id":"655d6b5d3c04e66f990178a6","school":"testvieted","dmn":"testvieted","allow_feedback":false,"counter":{"money":0,"vmoney":0,"students":10},"status":"approved","learning_type":"ilt","allow_teacher_add_new_session":1,"code":"P4zd4NcGgu-12770608-12772111","credit_syllabus":12770608,"enrolment_plans":[12772111],"name":"syllabus 22.11","organizations":[3404044],"start_date":1700586000,"end_date":1700845199,"avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/22\/27\/629db35918937776971f5d27\/655d6206fe232258a80c589a.png","avatar_file_id":"655d6206fe232258a80c589a","avatar_directory_url":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/22\/27\/629db35918937776971f5d27\/655d62075e971f625503a3ad","ntype":"course","syllabus":12770608,"sub_type":"syllabus_scorm","iid":12772118,"ts":1700621149,"u":{"id":"629db35918937776971f5d27","iid":517008,"name":"CBQL\u0110T","code":"testvieted","mail":"testvieted@smartlms.vn","phone":"0394080294"},"slug":"syllabus-22-11","academic_categories":[3408826],"rubric_iid":10214128,"course_layout":null,"private":1,"public_course_type":0,"external_contest_code":null,"active":1,"ancestor_organizations":[],"updated_ts":1700621193,"contest_iids":[12772119],"stats":{"marking":{"detail":[]},"passed":1,"total_members":10,"total_commented_by_gvsp":0},"last_synced":1700621168,"certificate_ids":["62a0572d3a530960e9223cbe"],"sequential_learning":0,"id":"655d6b5d3c04e66f990178a6","organizations_name":["T\u1ec9nh h\u1ed3 ch\u00ed minh"],"__expand":{"group":null,"semester":null,"staff_with_roles":[]},"staff":[],"syllabus_course_number_users_min":null,"syllabus_course_number_users_max":null,"default_avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/09\/27\/629db35918937776971f5d27\/654c3fcad7769c2d8f688c23.png","publish_levels":[{"key":"open","name":"open"},{"key":"intranet","name":"intranet"},{"key":"office","name":"office"}],"detail_academic_categories":[{"dmn":"testvieted","name":"B\u00caNH NGH\u1ec0 NGHI\u1ec6P","code":"BENH-NGHE-NGHIEP","type":"academic","u":{"id":"629db35918937776971f5d27","iid":517008,"name":"testvieted","mail":"testvieted@smartlms.vn"},"ts":1654502398,"status":"init","ac":"benh nghe nghiep","school":"testvieted","ntype":"category","level":0,"pid":"0","slug":"benh-nghe-nghiep-2","ancestor_iids":[],"updated_ts":1654504974,"iid":3408826,"id":"629db3fe18937776971f7210"}],"attendance_deadline":{"deadline":1700845199,"deadline_is_over":true},"marking_deadline":{"deadline":1700845199,"deadline_is_over":true}}],"message":"Th\u00e0nh c\u00f4ng","is_guest":false,"objects":{"count":2,"total":2},"hasSystemMessage":false,"ts":"","server_ts":1700957574}
-DEBUG:root:https://alpha-api.lotuslms.com/user/login
-DEBUG:root:{'lname': 'testvieted', 'pass': '#Homnaycungphailam-_-', 'submit': '1', '_sand_ajax': '1', '_sand_platform': '3', '_sand_readmin': '1', '_sand_is_wan': 'false', '_sand_ga_sessionToken': '', '_sand_ga_browserToken': '', '_sand_domain': 'testvieted', '_sand_masked': ''}
-DEBUG:root:{"success":true,"result":{"birthday":1160586300,"id":"629db35918937776971f5d27","schools":["system","testvieted"],"ga_secret":"I3TXFKBVXMFSBEI3","name":"CBQL\u0110T","have_enter_temis_profile_info":1,"phone":"0394080294","user_organizations":[3404044],"mail":"testvieted@smartlms.vn","lname":"testvieted","code":"testvieted","ts":"1654502233","avatar":"","devices":[{"id":"36f0f306e8571c15","type":1,"fcm_token":"dGfxHnHxTr28dix2GZNgfd:APA91bFQ2tYyNzkUrG893RWkjqCqY7B7tQIMYOfyeP2IrDVTah5xstqvc52Qizb5wXKVi2X_hUNjljHR_QQFlJICcA9YoIwvtGFJR_frhDwdmj-O9D5zJc-M1_dDPbFNJqPCdM1cEKP8"},{"id":"75603515b69154c4","type":1,"fcm_token":"d1g2LRPmQNuQoJm527ibk5:APA91bElpEqfUmmFB49axRXnSRvKOMgcIx0fDx0yXUYHKhxSf5Tc2wMGLYMp0gHC558z9LSj7QmvF2g7K_IZ_GZxqdPYn8B-puuqepzXcf_V1NmY3_aKTxDZihgo89K_hnr2SUIUDEuB"}],"apply_job_date":"0","settings":{"language":"vn"},"counter":{"money":0,"vmoney":0,"tm":0},"is_register":"1","iid":517008,"birthplace":null,"modified_phone_ts":null,"phone_support":null,"leader_position":null,"force_re_enter_profile_info":0,"missing_training_grades_in_registration":null,"is_gv_cot_can_dot_1":null,"is_quan_ly_cot_can_dot_1":null,"have_to_register_for_training":null,"hrms":null,"default_home_page":null,"grade":null,"ga_enabled":null,"is_parent":null,"working_mode":null,"current_position":null,"phongban_id":null,"identification_code_encrypted":null,"identification_code":null,"sub_leader_position":null,"assessment_phase":null,"must_change_pass_before_using_system":null,"job_position_promoted_date":null,"referrer_iid":null,"import_id":null,"ms_teams_email":null,"ms_teams_user_principal_name":null,"identification_card":null,"identification_card_date":null,"identification_card_place":null,"nationality":null,"is_anon":null,"position":null,"iid_mapping":null,"id_mapping":null,"widget":[],"positions":[],"campus_iids":[],"license":[],"ancestor_organizations":[],"phongbans":[],"have_missions_in_domain":[],"cot_can_data":[],"top_menus":[],"children_of_parent":[],"role_in_site":null,"affiliate_roles":[],"status":"activated","organizations":[{"name":"T\u1ec9nh h\u1ed3 ch\u00ed minh","code":"testvieted","slug":"testvieted","short_name":"testvieted","iid":3404044,"dmn":"testvieted","school":"testvieted","ntype":"organization","type":"organization","pid":"0","status":"init","sub_type":1,"level":0,"ancestor_iids":[],"ac":"tinh ho chi minh testvieted","updated_ts":1698394153,"data_cached":1,"id":"629db33218937776971f5719"}],"phongbans_objects":[],"can_skip_profile":1,"can_skip_temis_profile":1,"roles":["testvieted:staff","lms:staff","testvieted:root","system:staff","tech:staff"],"is_teacher":false,"default_avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/06\/27\/629db35918937776971f5d27\/6548b2ede006277ea726119e.jfif","sex":"0","ethnicity":"\u0110\u1ed1ng \u0110a","external":0,"token":"94e9d_RGOOb","pass":1,"isRoot":true,"isStaff":true},"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng","is_guest":false,"hasSystemMessage":false,"ts":"","server_ts":1700957745}
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): alpha-api.lotuslms.com:443
-DEBUG:urllib3.connectionpool:https://alpha-api.lotuslms.com:443 "POST /course/my HTTP/1.1" 200 None
-DEBUG:root:https://alpha-api.lotuslms.com/course/my
-DEBUG:root:{'_sand_get_total': 1, '_sand_step': 'enrolment_plan', 'enrolment_plans': 12772111, 'submit': '1', '_sand_ajax': '1', '_sand_platform': '3', '_sand_readmin': '1', '_sand_is_wan': 'false', '_sand_ga_sessionToken': '', '_sand_ga_browserToken': '', '_sand_domain': 'testvieted', '_sand_masked': '', '_sand_token': '94e9d_RGOOb', '_sand_uiid': 517008, '_sand_uid': '629db35918937776971f5d27'}
-DEBUG:root:{"success":true,"result":[{"_id":"655d6b5d3c04e66f990178be","school":"testvieted","dmn":"testvieted","allow_feedback":false,"counter":{"money":0,"vmoney":0,"students":10},"status":"approved","learning_type":"ilt","allow_teacher_add_new_session":1,"code":"z4dcF0Ni4r-12771116-12772111","credit_syllabus":12771116,"enrolment_plans":[12772111],"name":"syllabus 22.11","organizations":[3404044],"start_date":1700586000,"end_date":1700845199,"avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/22\/27\/629db35918937776971f5d27\/655d644bcb425adc900d464b.png","avatar_file_id":"655d644bcb425adc900d464b","avatar_directory_url":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/22\/27\/629db35918937776971f5d27\/655d644c7aacad3bba03f62f","ntype":"course","syllabus":12771116,"sub_type":"syllabus_scorm","iid":12772142,"ts":1700621149,"u":{"id":"629db35918937776971f5d27","iid":517008,"name":"CBQL\u0110T","code":"testvieted","mail":"testvieted@smartlms.vn","phone":"0394080294"},"slug":"syllabus-22-11","academic_categories":[3408825],"rubric_iid":10214128,"course_layout":null,"private":1,"public_course_type":0,"external_contest_code":null,"active":1,"ancestor_organizations":[],"updated_ts":1700621346,"stats":{"marking":{"detail":[]},"passed":1,"total_members":10,"total_commented_by_gvsp":0},"last_synced":1700621168,"certificate_ids":["651e2a67f01aad3055780382"],"sequential_learning":0,"id":"655d6b5d3c04e66f990178be","organizations_name":["T\u1ec9nh h\u1ed3 ch\u00ed minh"],"__expand":{"group":null,"semester":null,"staff_with_roles":[]},"staff":[],"syllabus_course_number_users_min":null,"syllabus_course_number_users_max":null,"default_avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/09\/27\/629db35918937776971f5d27\/654c3fcad7769c2d8f688c23.png","publish_levels":[{"key":"open","name":"open"},{"key":"intranet","name":"intranet"},{"key":"office","name":"office"}],"detail_academic_categories":[{"dmn":"testvieted","name":"QUAN TR\u1eaeC M\u00d4I TR\u01af\u1edcNG LAO \u0110\u1ed8NG","code":"QUAN-TRAC-MOI-TRUONG-LAO-DONG","type":"academic","u":{"id":"629db35918937776971f5d27","iid":517008,"name":"testvieted","mail":"testvieted@smartlms.vn"},"ts":1654502398,"status":"approved","ac":"quan trac moi truong lao dong","school":"testvieted","ntype":"category","level":0,"pid":"0","slug":"quan-trac-moi-truong-lao-dong","ancestor_iids":[],"updated_ts":1655696755,"iid":3408825,"id":"629db3fe18937776971f720f"}],"attendance_deadline":{"deadline":1700845199,"deadline_is_over":true},"marking_deadline":{"deadline":1700845199,"deadline_is_over":true}},{"_id":"655d6b5d3c04e66f990178a6","school":"testvieted","dmn":"testvieted","allow_feedback":false,"counter":{"money":0,"vmoney":0,"students":10},"status":"approved","learning_type":"ilt","allow_teacher_add_new_session":1,"code":"P4zd4NcGgu-12770608-12772111","credit_syllabus":12770608,"enrolment_plans":[12772111],"name":"syllabus 22.11","organizations":[3404044],"start_date":1700586000,"end_date":1700845199,"avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/22\/27\/629db35918937776971f5d27\/655d6206fe232258a80c589a.png","avatar_file_id":"655d6206fe232258a80c589a","avatar_directory_url":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/22\/27\/629db35918937776971f5d27\/655d62075e971f625503a3ad","ntype":"course","syllabus":12770608,"sub_type":"syllabus_scorm","iid":12772118,"ts":1700621149,"u":{"id":"629db35918937776971f5d27","iid":517008,"name":"CBQL\u0110T","code":"testvieted","mail":"testvieted@smartlms.vn","phone":"0394080294"},"slug":"syllabus-22-11","academic_categories":[3408826],"rubric_iid":10214128,"course_layout":null,"private":1,"public_course_type":0,"external_contest_code":null,"active":1,"ancestor_organizations":[],"updated_ts":1700621193,"contest_iids":[12772119],"stats":{"marking":{"detail":[]},"passed":1,"total_members":10,"total_commented_by_gvsp":0},"last_synced":1700621168,"certificate_ids":["62a0572d3a530960e9223cbe"],"sequential_learning":0,"id":"655d6b5d3c04e66f990178a6","organizations_name":["T\u1ec9nh h\u1ed3 ch\u00ed minh"],"__expand":{"group":null,"semester":null,"staff_with_roles":[]},"staff":[],"syllabus_course_number_users_min":null,"syllabus_course_number_users_max":null,"default_avatar":"https:\/\/static-cloud.lotuslms.com\/2023\/11\/09\/27\/629db35918937776971f5d27\/654c3fcad7769c2d8f688c23.png","publish_levels":[{"key":"open","name":"open"},{"key":"intranet","name":"intranet"},{"key":"office","name":"office"}],"detail_academic_categories":[{"dmn":"testvieted","name":"B\u00caNH NGH\u1ec0 NGHI\u1ec6P","code":"BENH-NGHE-NGHIEP","type":"academic","u":{"id":"629db35918937776971f5d27","iid":517008,"name":"testvieted","mail":"testvieted@smartlms.vn"},"ts":1654502398,"status":"init","ac":"benh nghe nghiep","school":"testvieted","ntype":"category","level":0,"pid":"0","slug":"benh-nghe-nghiep-2","ancestor_iids":[],"updated_ts":1654504974,"iid":3408826,"id":"629db3fe18937776971f7210"}],"attendance_deadline":{"deadline":1700845199,"deadline_is_over":true},"marking_deadline":{"deadline":1700845199,"deadline_is_over":true}}],"message":"Th\u00e0nh c\u00f4ng","is_guest":false,"objects":{"count":2,"total":2},"hasSystemMessage":false,"ts":"","server_ts":1700957745}
-DEBUG:root:https://alpha-api.lotuslms.com/user/login
-DEBUG:root:{'lname': 'bvl', 'pass': '#Homnaycungphailam-_-', 'submit': '1', '_sand_ajax': '1', '_sand_platform': '3', '_sand_readmin': '1', '_sand_is_wan': 'false', '_sand_ga_sessionToken': '', '_sand_ga_browserToken': '', '_sand_domain': 'bvl', '_sand_masked': ''}
-DEBUG:root:{"success":true,"result":{"id":"61b16a240f70682a6b1113fc","birthday":1160586300,"schools":["system","bvl"],"name":"Admin bvl","have_enter_temis_profile_info":1,"phone":"0962369231","mail":"support@vieted.com","user_organizations":[1890561],"lname":"bvl","code":"bvl","ts":"1639016996","avatar":"https:\/\/static-cloud.lotuslms.com\/2022\/12\/14\/fc\/61b16a240f70682a6b1113fc\/639954c09b377a1d1a2a3b99.png","devices":[{"id":"36f32f079060d237","type":1,"fcm_token":"dFCFYM2tTUm_0_LAo7KH9_:APA91bFn4Mu82CXrdjNxUCbyChnVJPWmsGdHSFBg2Y3EIl90DqsZP8y-wlmEc2A7RtEtRmFYjWUNgFt21f813nw8XKOum23_tO2-RK9PLCPPG9vGCrSmE3QxP0rDKdsRhbrjExW8TSRO"},{"id":"3aad6d31d1c7c00e","type":1,"fcm_token":"fmmuU9chTKWOjyNkngE0IL:APA91bEKOf-inM8K7aktvKXGXyNy6kRja56MX0xzt4mPpJrkXzsmhIxWJ8LKcFr_vmXhbihE1gycqYTJEiDoKz-Wg5h1tl-q5lPJZllQxX8rdHT-J4ipw_sgAuU1BZP9X5AK4zbFcaxt"},{"id":"36f0f306e8571c15","type":1,"fcm_token":"cspUlPa73KzL1GDjcyDu7I:APA91bHOsWymQ8JasId5dJP9suKoMSuXUeVptabys6WEPM1tNVJFLRSZVZ7ya7RG_yatY9JCzIHPZcsQSy8sWwcGErrzcUG_jEmTT7ifkvBeVeQmcDSC_Uc5g9k8qHf9ckMbQuVpGKMy"},{"id":"36f0f306e8571c15","type":1,"fcm_token":"cvbqqCaWRBuZiVyo0TsM5s:APA91bH7SGCY9kptHqHOvXGpaa-oIXU1zf0p3DGF2LgQuf9b6IzUiiX_K_rqmlmOGQGnOEK-uVUaewXrNuEM9UseWNcCRHPHhacvV969NaRVEsLU5UqD-ghImxjzCXyOtv_klV8U0dtm"},{"id":"394eab6487bd4936","type":1,"fcm_token":"fNeQDQDEQvKrhr4zpyxlrV:APA91bHVLR8yaJqy1TZfiVwe6LZhdoCPtak_j3StVtXSpF1bRWWobA6Zl09CkWMXAsNndjQpmHnNR_GyP03l9SoQDGXlftUMWZPSRZ0J1ouo2Dzb2AHGaTwfNODUlnDSq2Esl_hXqS_i"},{"id":"da07f30c6a19dcc3","type":1,"fcm_token":"ePl_NCY9TOSaBjIhFcKE-J:APA91bFzcKSI3H5JeFJ7YsJnrY3thQLEYgBOQYX3pkKPlltYFCkyCvsd5nlD8aUQgfm2fvkltWEStPFIOpde48a5N9mI1O9g1CNJQJCHl11NqC-vON-hw0ZDBgv_fBM3ektxa-79nSfZ"},{"id":"fc3828a68f3241e6","type":1,"fcm_token":"fSU6YEvUQPaD758dBisEOd:APA91bH9Y7wJreE9NJChWjXALjHep_zHb_hCFk5rSnAJsJdWFhMOyXvptkQV-TwjaQebRG68PMqz4lt2g_U1Ag8qA2z3rNIC6yBhn5SRcsA7LywoLUX_Yxt-hrEFgxPHwB1X47D5tsvn"},{"id":"33CE44DF-4B5C-5E15-9ADE-8C1339ADF3B4","type":2,"fcm_token":"eAoHjsx82ksMjfnXW3_9xF:APA91bHm1OWf1aWptZKsCeu74pEiYD05_rr7GAWs9jqh8Y90VdRfoYuzuPjHVVV5Xd1z9Iya8W4GjL2wJ6MJj-kwR9Qy9EUmenGcufEnrSue0hx7bkbFexpeo09ArjuumHcuZdmYktFd"},{"id":"4FC336E2-B781-4808-ACB6-305788F7424F","type":2,"fcm_token":"ebTfpNIpw0EltdONmYNqcZ:APA91bHAqZfbB5H2ZEn3OTWtqEyirSb1Q2NSUChTyidkcau_0ervpBmJwY4LrtF6qqkiZPVMjfqiNVXisF89Qq4CjQtzigNlT-NjumwFUBoclXL8KJKOCBFfpuo0rspvjdiIfc9HN_sp"},{"id":"640a81cf3e046020","type":1,"fcm_token":"fsP6VIfOQyW-w9Sk1Lz5Rl:APA91bGRMbYfopbcfg0OT-fsQ3tSzd1rEaZtaJ3TSfAINbIu_GHFopaX-LGhL53dSVxC03_drozusbTk7zmSCRHKjEcLHMM0qMsgpkvnpLY-zp1QxYawQNPC0BzclYWrFUM8ZpBOx-Aj"},{"id":"c0b0e14b4f1a2625","type":1,"fcm_token":"ceRldmYKTFeI3PRjfYyCMb:APA91bE_gzLN1dJb6ErxlMSHBT_HycHDwZHN13gUOdNvTC2lafOTwPbB94okHkiMkZmxMiSCfYPnrvxULDQmdJPoba13QtSRc98X_Gl0JgFt1wJiL6o9RFtKG4qhSwMScWkbrrbLXExI"},{"id":"FDBC9BD4-14A9-4552-ABAE-8316AEE62539","type":2,"fcm_token":"cJ5l2IgyHEBDrtqeJZrr_S:APA91bFY386gvknlteKI7f45qU_eOeSfv029Z44GIqQolQX4MDQ2iMcRb-EJxW2ERAa0IywiYOzgfqes3mgzYHcMoAaDomnxAJgGerN8s2atEPr3awDtzwoWYIvnkXENlfAq_gzlL-hW"},{"id":"265AF03C-E635-4E89-9A3F-9691339B396C","type":2,"fcm_token":"eVO-eXCehUEivKLo8CC698:APA91bF6mzirNAhoW4Vksc6kaO0cqCCF15JYwOsgB2FlF4H7ZM7q0va9kkfYykGiKkxnC58sB-3LPmy-Nw9kSgjGeLtqnWoCUGaQv7fSMILDq7L_0c7EWMWEsWtD1Ij9UVZdcXfH7kfV"}],"apply_job_date":"0","settings":{"language":"vn"},"counter":{"money":-100,"vmoney":0,"tm":-100},"top_menus":["meet"],"default_home_page":"dashboard","iid":296650,"birthplace":null,"modified_phone_ts":null,"phone_support":null,"leader_position":null,"force_re_enter_profile_info":0,"missing_training_grades_in_registration":null,"is_gv_cot_can_dot_1":null,"is_quan_ly_cot_can_dot_1":null,"have_to_register_for_training":null,"hrms":null,"grade":null,"ga_enabled":null,"ga_secret":null,"is_parent":null,"working_mode":null,"current_position":null,"phongban_id":null,"identification_code_encrypted":null,"identification_code":null,"sub_leader_position":null,"assessment_phase":null,"must_change_pass_before_using_system":null,"job_position_promoted_date":null,"referrer_iid":null,"import_id":null,"is_register":null,"ms_teams_email":null,"ms_teams_user_principal_name":null,"identification_card":null,"identification_card_date":null,"identification_card_place":null,"nationality":null,"is_anon":null,"position":null,"iid_mapping":null,"id_mapping":null,"widget":[],"positions":[],"campus_iids":[],"license":[],"ancestor_organizations":[],"phongbans":[],"have_missions_in_domain":[],"cot_can_data":[],"children_of_parent":[],"role_in_site":null,"affiliate_roles":[],"status":"activated","organizations":[{"name":"TCT B\u1ea3o Vi\u1ec7t Nh\u00e2n th\u1ecd","code":"TCT-BVNT","slug":"bvl","short_name":"TCT BVNT","iid":1890561,"dmn":"bvl","school":"bvl","ntype":"organization","type":"organization","pid":"0","status":"init","sub_type":1,"level":0,"ancestor_iids":[],"ac":"tct bao viet nhan tho bvnt","data_cached":1,"certificate_signer_iid":298444,"updated_ts":1691549762,"id":"61b16a010f70682a6b1110bb"}],"phongbans_objects":[],"can_skip_profile":1,"can_skip_temis_profile":1,"roles":["bvl:root","bvl:staff"],"is_teacher":false,"default_avatar":null,"sex":"1","external":0,"token":"e78c0_czzUv","pass":1,"isRoot":true,"isStaff":true},"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng","is_guest":false,"hasSystemMessage":false,"ts":"","server_ts":1701047565}
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): alpha-api.lotuslms.com:443
-DEBUG:urllib3.connectionpool:https://alpha-api.lotuslms.com:443 "POST /api/v2/syllabus/get HTTP/1.1" 200 None
-DEBUG:root:https://alpha-api.lotuslms.com/api/v2/syllabus/get
-DEBUG:root:{'ntype': 'course', 'depth': 2, 'is_preview': 'false', 'editing_syllabus': 2, 'iid': '11600182', 'submit': '1', '_sand_ajax': '1', '_sand_platform': '3', '_sand_readmin': '1', '_sand_is_wan': 'false', '_sand_ga_sessionToken': '', '_sand_ga_browserToken': '', '_sand_domain': 'bvl', '_sand_masked': '', '_sand_token': 'e78c0_czzUv', '_sand_uiid': 296650, '_sand_uid': '61b16a240f70682a6b1113fc'}
-DEBUG:root:{"success":false,"err":"object_not_found","display_err":1,"hasSystemMessage":false,"ts":"","server_ts":1701047565}
+DEBUG:root:GET
+DEBUG:root:https://els.aeglobal.edu.vn/common/organizationTreeDataJson
+DEBUG:root:{'authority': 'els.aeglobal.edu.vn', 'accept': 'application/json, text/javascript, */*; q=0.01', 'accept-language': 'vi,en-US;q=0.9,en;q=0.8', 'cookie': 'laravel_session=eyJpdiI6ImlzMkY1cXg3OWtZYmlOYkJjS0J0cEE9PSIsInZhbHVlIjoiQ3pOeGZnc1JGNlJNMEltZEh0cGs5TVdTaGxjd1d5dklaaS9HUmRVSDFGc0w2SkVuOEYydE5NdEV5Z3pkZUZidGJqcjB1MkRGSng2OTM0ME5TeGlMOFhVMzZNZnA0YmR5aTByQmt1MDJxZW84VjNjUVdtZWQ3b2FpMUhDSWdZdG0iLCJtYWMiOiIxMjMxOGY3MDhlZGE0M2QwYThjNDMxYWZkODdhNjdhM2IwNmQ1NzZjMzk3YTM5Y2Q5ZTQxZjI3MDkxNDNjMTM0IiwidGFnIjoiIn0%3D', 'origin': 'https://els.aeglobal.edu.vn', 'referer': 'https://els.aeglobal.edu.vn/quiz-kit', 'sec-ch-ua': '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-dest': 'empty', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'same-origin', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'}
+DEBUG:root:{}
+DEBUG:root:<!DOCTYPE html>
+<html lang="vi-vn">
+<head>
+	<title>	AE Global
+</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="XCA0O1wBjcAE3LlVB8zYny6OXA6WR0JZsmvqxk1u">
+	    <meta content="N\u1ec1n t\u1ea3ng giáo d\u1ee5c tr\u1ef1c tuy\u1ebfn. Hãy tham gia \u0111\u1ec3 h\u1ecdc ngay!" name="description" />
+
+    <meta property="fb:app_id" content="442588876153092" />
+    <meta property="og:site_name" content="Edulive.net" />
+    <meta property="og:url" content="https://els.aeglobal.edu.vn" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AE Global - Interactive learning" />
+    <meta property="og:description" content="N\u1ec1n t\u1ea3ng giáo d\u1ee5c tr\u1ef1c tuy\u1ebfn. Hãy tham gia \u0111\u1ec3 h\u1ecdc ngay!" />
+    <meta property="og:image" content="https://els.aeglobal.edu.vn/img/clients/aeglobal/link_cover.jpg" />
+    <meta property="og:image:secure_url" content="https://els.aeglobal.edu.vn/img/clients/aeglobal/link_cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+	<link rel="shortcut icon" href="https://els.aeglobal.edu.vn/img/clients/aeglobal/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://els.aeglobal.edu.vn/img/clients/aeglobal/favicon.ico" type="image/x-icon">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/plugins/bootstrap-4.3.1/css/bootstrap.min.css">
+    <!-- FontAwesome 5.1.1 CSS -->
+    <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/plugins/fontawesome-5.11/css/all.min.css">
+
+    <link rel="preload" href="https://els.aeglobal.edu.vn/assets/fonts/Inter-Regular.woff" as="font"  type="font/woff" crossorigin>
+    <link rel="preload" href="https://els.aeglobal.edu.vn/assets/fonts/SVN-CircularMedium.woff" as="font"  type="font/woff" crossorigin>
+
+    <!-- Main Landing Style-->
+    <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/scss/zyk/client/css/min/landing.min.css?v=1702347383">
+
+    	<!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/plugins/swiper/css/swiper-bundle.min.css">
+
+            <style>
+            :root{
+                --primary: #FE0000;
+                --secondary: #FE0000;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/scss/zyk/clients/aeglobal/css/custom.css?v=1702347383">
+    
+    <script src="https://els.aeglobal.edu.vn/plugins/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="https://els.aeglobal.edu.vn/assets/plugins/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://els.aeglobal.edu.vn/plugins/moment/moment.js"></script>
+    <script src="https://els.aeglobal.edu.vn/assets/plugins/moment-timezone-with-data-1970-2030.min.js"></script>
+
+	<script>
+        var domain_resource = 'https://resoures.edulive.net';
+        var params_security = '?md5=zfHnND4mWkBfE0GKNpJf7g&amp;expires=1702485009';
+        var app_debug = '';
+        var langDetect = 'vi';
+    </script>
+
+    <script src="https://els.aeglobal.edu.vn/js/lang-vi.js?v=1702347383"></script>
+    <script src="https://els.aeglobal.edu.vn/js/app.js?v=1702347383"></script>
+    <script src="https://els.aeglobal.edu.vn/assets/js/zyk/zayeki.min.js?v=1702347383"></script>
+
+    <script>
+        var client_ip = '104.28.222.75';
+        var client_prefix = '';
+        var user_email = '';
+        var client_time_zone = '';
+    </script>
+
+    <!-- Block UI -->
+    <script src="https://els.aeglobal.edu.vn/js/jquery.blockUI.js"></script>
+
+    <!-- Lazysizes -->
+    <script src="https://els.aeglobal.edu.vn/assets/plugins/lazysizes/lazysizes.min.js"></script>
+</head>
+<body>
+    	
+    
+    <div class="landing">
+        <header>
+	<div class="container">
+		<div class="header-brand">
+			<a href="https://els.aeglobal.edu.vn/home">
+				<img src="https://els.aeglobal.edu.vn/img/clients/aeglobal/logo.png" alt="AE Global Logo">
+			</a>
+		</div>
+
+		<div class="header-toggle">
+            <button class="btn" id="btnToggleHeaderNav" type="button">
+                <div class="lines">
+                    <span></span>
+                </div>
+            </button>
+        </div>
+		<div class="header-actions">
+			                                <a href="https://els.aeglobal.edu.vn/dang-nhap" class="btn btn-outline-secondary" role="button">
+                    \u0110\u0103ng nh\u1eadp
+                </a>
+            
+                            <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
+                                                    VI
+                                            </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-language">
+                        <a class="dropdown-item" href="javascript:;" onclick="elApp.changeLanguage(this)" data-url="https://els.aeglobal.edu.vn/change-language/en">
+                            <img src="https://els.aeglobal.edu.vn/img/en.png" alt="en"> English
+                        </a>
+                        <a class="dropdown-item" href="javascript:;" onclick="elApp.changeLanguage(this)" data-url="https://els.aeglobal.edu.vn/change-language/vi">
+                            <img src="https://els.aeglobal.edu.vn/img/vn.png" alt="vi"> Ti\u1ebfng Vi\u1ec7t
+                        </a>
+                    </div>
+                </div>
+            		</div>
+	</div>
+</header>
+
+        	<div class="view-landing">
+					<div class="mask">
+				<img src="https://els.aeglobal.edu.vn/img/clients/aeglobal/cover.jpg" class="img-web" alt="AE Global Landing Cover">
+				<img src="https://els.aeglobal.edu.vn/img/clients/aeglobal/cover.jpg" class="img-mobile" alt="AE Global Landing Cover">
+			</div>
+		
+		<div class="container">
+			
+			<div class="text ">
+				<h5>
+					
+				</h5>
+
+				<h3 class="">
+					H\u1ec7 sinh thái giáo d\u1ee5c AEGlobal
+				</h3>
+
+				<div class="download">
+					<h6 class="subtitle-md">
+						T\u1ea3i xu\u1ed1ng
+					</h6>
+
+					<div class="actions">
+						<a href="https://apps.apple.com/vn/app/edulive-interactive-learning/id1457658071" target="_blank">
+							<img src="https://els.aeglobal.edu.vn/img/download-iOs.png" alt="Get App on Appstore" width="155">
+						</a>
+
+						<a href="https://play.google.com/store/apps/details?id=net.edulive.android.app" target="_blank">
+							<img src="https://els.aeglobal.edu.vn/img/download-android.png" alt="Get App on Google Play"  width="155">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+        <footer>
+	<div class="container">
+		<a href="#">
+            <img class="logo-lg" src="https://els.aeglobal.edu.vn/logo-web-color.svg" alt="Logo of Edulive">
+        </a>
+
+        <p class="p-sm">
+                            B\u1ea3n quy\u1ec1n © 2023 thu\u1ed9c v\u1ec1 Edulive. B\u1ea3o l\u01b0u m\u1ecdi quy\u1ec1n.
+                    </p>
+	</div>
+</footer>
+            </div>
+
+    <!-- MESSAGE ONLOAD -->
+    <script>
+            </script>
+
+    <script src="https://els.aeglobal.edu.vn/assets/js/zyk/client/landing/function.min.js?v=1702347383"></script>
+		<!-- SWIPER JS -->
+    <script src="https://els.aeglobal.edu.vn/assets/plugins/swiper/js/swiper-bundle.min.js"></script>
+</body>
+DEBUG:root:GET
+DEBUG:root:https://els.aeglobal.edu.vn/common/organizationTreeDataJson
+DEBUG:root:{'authority': 'els.aeglobal.edu.vn', 'accept': 'application/json, text/javascript, */*; q=0.01', 'accept-language': 'vi,en-US;q=0.9,en;q=0.8', 'cookie': 'laravel_session=eyJpdiI6ImlzMkY1cXg3OWtZYmlOYkJjS0J0cEE9PSIsInZhbHVlIjoiQ3pOeGZnc1JGNlJNMEltZEh0cGs5TVdTaGxjd1d5dklaaS9HUmRVSDFGc0w2SkVuOEYydE5NdEV5Z3pkZUZidGJqcjB1MkRGSng2OTM0ME5TeGlMOFhVMzZNZnA0YmR5aTByQmt1MDJxZW84VjNjUVdtZWQ3b2FpMUhDSWdZdG0iLCJtYWMiOiIxMjMxOGY3MDhlZGE0M2QwYThjNDMxYWZkODdhNjdhM2IwNmQ1NzZjMzk3YTM5Y2Q5ZTQxZjI3MDkxNDNjMTM0IiwidGFnIjoiIn0%3D', 'origin': 'https://els.aeglobal.edu.vn', 'referer': 'https://els.aeglobal.edu.vn/quiz-kit', 'sec-ch-ua': '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-dest': 'empty', 'sec-fetch-mode': 'cors', 'sec-fetch-site': 'same-origin', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'}
+DEBUG:root:{}
+DEBUG:root:<!DOCTYPE html>
+<html lang="vi-vn">
+<head>
+	<title>	AE Global
+</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="XCA0O1wBjcAE3LlVB8zYny6OXA6WR0JZsmvqxk1u">
+	    <meta content="N\u1ec1n t\u1ea3ng giáo d\u1ee5c tr\u1ef1c tuy\u1ebfn. Hãy tham gia \u0111\u1ec3 h\u1ecdc ngay!" name="description" />
+
+    <meta property="fb:app_id" content="442588876153092" />
+    <meta property="og:site_name" content="Edulive.net" />
+    <meta property="og:url" content="https://els.aeglobal.edu.vn" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AE Global - Interactive learning" />
+    <meta property="og:description" content="N\u1ec1n t\u1ea3ng giáo d\u1ee5c tr\u1ef1c tuy\u1ebfn. Hãy tham gia \u0111\u1ec3 h\u1ecdc ngay!" />
+    <meta property="og:image" content="https://els.aeglobal.edu.vn/img/clients/aeglobal/link_cover.jpg" />
+    <meta property="og:image:secure_url" content="https://els.aeglobal.edu.vn/img/clients/aeglobal/link_cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+	<link rel="shortcut icon" href="https://els.aeglobal.edu.vn/img/clients/aeglobal/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://els.aeglobal.edu.vn/img/clients/aeglobal/favicon.ico" type="image/x-icon">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/plugins/bootstrap-4.3.1/css/bootstrap.min.css">
+    <!-- FontAwesome 5.1.1 CSS -->
+    <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/plugins/fontawesome-5.11/css/all.min.css">
+
+    <link rel="preload" href="https://els.aeglobal.edu.vn/assets/fonts/Inter-Regular.woff" as="font"  type="font/woff" crossorigin>
+    <link rel="preload" href="https://els.aeglobal.edu.vn/assets/fonts/SVN-CircularMedium.woff" as="font"  type="font/woff" crossorigin>
+
+    <!-- Main Landing Style-->
+    <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/scss/zyk/client/css/min/landing.min.css?v=1702347383">
+
+    	<!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/plugins/swiper/css/swiper-bundle.min.css">
+
+            <style>
+            :root{
+                --primary: #FE0000;
+                --secondary: #FE0000;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://els.aeglobal.edu.vn/assets/scss/zyk/clients/aeglobal/css/custom.css?v=1702347383">
+    
+    <script src="https://els.aeglobal.edu.vn/plugins/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="https://els.aeglobal.edu.vn/assets/plugins/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://els.aeglobal.edu.vn/plugins/moment/moment.js"></script>
+    <script src="https://els.aeglobal.edu.vn/assets/plugins/moment-timezone-with-data-1970-2030.min.js"></script>
+
+	<script>
+        var domain_resource = 'https://resoures.edulive.net';
+        var params_security = '?md5=_H9UcdaTJVMCowAAho1fGw&amp;expires=1702485321';
+        var app_debug = '';
+        var langDetect = 'vi';
+    </script>
+
+    <script src="https://els.aeglobal.edu.vn/js/lang-vi.js?v=1702347383"></script>
+    <script src="https://els.aeglobal.edu.vn/js/app.js?v=1702347383"></script>
+    <script src="https://els.aeglobal.edu.vn/assets/js/zyk/zayeki.min.js?v=1702347383"></script>
+
+    <script>
+        var client_ip = '104.28.222.75';
+        var client_prefix = '';
+        var user_email = '';
+        var client_time_zone = '';
+    </script>
+
+    <!-- Block UI -->
+    <script src="https://els.aeglobal.edu.vn/js/jquery.blockUI.js"></script>
+
+    <!-- Lazysizes -->
+    <script src="https://els.aeglobal.edu.vn/assets/plugins/lazysizes/lazysizes.min.js"></script>
+</head>
+<body>
+    	
+    
+    <div class="landing">
+        <header>
+	<div class="container">
+		<div class="header-brand">
+			<a href="https://els.aeglobal.edu.vn/home">
+				<img src="https://els.aeglobal.edu.vn/img/clients/aeglobal/logo.png" alt="AE Global Logo">
+			</a>
+		</div>
+
+		<div class="header-toggle">
+            <button class="btn" id="btnToggleHeaderNav" type="button">
+                <div class="lines">
+                    <span></span>
+                </div>
+            </button>
+        </div>
+		<div class="header-actions">
+			                                <a href="https://els.aeglobal.edu.vn/dang-nhap" class="btn btn-outline-secondary" role="button">
+                    \u0110\u0103ng nh\u1eadp
+                </a>
+            
+                            <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
+                                                    VI
+                                            </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-language">
+                        <a class="dropdown-item" href="javascript:;" onclick="elApp.changeLanguage(this)" data-url="https://els.aeglobal.edu.vn/change-language/en">
+                            <img src="https://els.aeglobal.edu.vn/img/en.png" alt="en"> English
+                        </a>
+                        <a class="dropdown-item" href="javascript:;" onclick="elApp.changeLanguage(this)" data-url="https://els.aeglobal.edu.vn/change-language/vi">
+                            <img src="https://els.aeglobal.edu.vn/img/vn.png" alt="vi"> Ti\u1ebfng Vi\u1ec7t
+                        </a>
+                    </div>
+                </div>
+            		</div>
+	</div>
+</header>
+
+        	<div class="view-landing">
+					<div class="mask">
+				<img src="https://els.aeglobal.edu.vn/img/clients/aeglobal/cover.jpg" class="img-web" alt="AE Global Landing Cover">
+				<img src="https://els.aeglobal.edu.vn/img/clients/aeglobal/cover.jpg" class="img-mobile" alt="AE Global Landing Cover">
+			</div>
+		
+		<div class="container">
+			
+			<div class="text ">
+				<h5>
+					
+				</h5>
+
+				<h3 class="">
+					H\u1ec7 sinh thái giáo d\u1ee5c AEGlobal
+				</h3>
+
+				<div class="download">
+					<h6 class="subtitle-md">
+						T\u1ea3i xu\u1ed1ng
+					</h6>
+
+					<div class="actions">
+						<a href="https://apps.apple.com/vn/app/edulive-interactive-learning/id1457658071" target="_blank">
+							<img src="https://els.aeglobal.edu.vn/img/download-iOs.png" alt="Get App on Appstore" width="155">
+						</a>
+
+						<a href="https://play.google.com/store/apps/details?id=net.edulive.android.app" target="_blank">
+							<img src="https://els.aeglobal.edu.vn/img/download-android.png" alt="Get App on Google Play"  width="155">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+        <footer>
+	<div class="container">
+		<a href="#">
+            <img class="logo-lg" src="https://els.aeglobal.edu.vn/logo-web-color.svg" alt="Logo of Edulive">
+        </a>
+
+        <p class="p-sm">
+                            B\u1ea3n quy\u1ec1n © 2023 thu\u1ed9c v\u1ec1 Edulive. B\u1ea3o l\u01b0u m\u1ecdi quy\u1ec1n.
+                    </p>
+	</div>
+</footer>
+            </div>
+
+    <!-- MESSAGE ONLOAD -->
+    <script>
+            </script>
+
+    <script src="https://els.aeglobal.edu.vn/assets/js/zyk/client/landing/function.min.js?v=1702347383"></script>
+		<!-- SWIPER JS -->
+    <script src="https://els.aeglobal.edu.vn/assets/plugins/swiper/js/swiper-bundle.min.js"></script>
+</body>

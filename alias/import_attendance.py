@@ -2,8 +2,6 @@ import sys, os, re
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ""))
 from API import lms
-from API.file import upload
-from API.attendance import get_import_id, import_attendance
 
 # truyền vào dmn và  ds link import điểm danh
 dmn = sys.argv[1]
