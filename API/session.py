@@ -44,3 +44,12 @@ def attendance_one_user(self, iid_course, session, user, status=1):
     }
     response = self.send("/session/update", payload)
     print(session["name"], " > ", user["name"])
+
+
+def delete_session(self, id_session):
+    payload = {"id": id_session}
+    response = self.send("/session/delete", payload)
+    if response["success"]:
+        print(f"Đã xoá session: {id_session}")
+    else:
+        print(response)

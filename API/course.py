@@ -12,7 +12,7 @@ class Newcourse:
         self.iid = iid_course
         if load_data:
             self.detail = get_detail_of_course(self.school, self.iid)
-            self.syllabus = syllabus.detail(
+            self.syllabus = syllabus.get_detail_of_syllabus(
                 self.school, iid_syllabus=self.detail["syllabus"]
             )
             self.users = get_member_of_course(self.school, self.iid)
@@ -20,7 +20,7 @@ class Newcourse:
 
     def download_file_import_attendance(self, folder_path):
         file_name = until.clear_file_name(self.detail["name"])
-        full_name = f"{self.iid} - {file_name}.xlsx"
+        full_name = f"{self.iid} _ {file_name}.xlsx"
         url_file = attendance.get_url_file_import_attendance(self.school, self.iid)
         until.save_file(url_file, folder_path, full_name)
 
@@ -82,12 +82,12 @@ def get_detail_of_course(self, iid_course):
     }
     response = self.send("/api/v2/syllabus/get", payload)
     response = until.get_value(response, key="result")
-    print(f"Course: {iid_course} - {response['name']}")
+    print(f"Course: {iid_course} _ {response['name']}")
     return response
 
 
 def get_member_of_course(self, iid_course):
-    payload = {"item_iid": iid_course, "items_per_page": "-1", "page": "1"}
+    payload = {"item_iid": iid_course, "items_per_page": "_1", "page": "1"}
     response = self.send("/course/member/search", payload)
     list_user = []
     response = until.get_value(response, key="result")
@@ -123,7 +123,7 @@ def get_list_course_of_ep(self, iid_ep):
 
 def create_contest(self, iid_course):
     payload = {"iid": iid_course}
-    response = self.send("/course/contest/create-contest", payload)
+    response = self.send("/course/contest/create_contest", payload)
     print(response)
 
 
@@ -161,7 +161,7 @@ def add_member(self, list_user, iid_course):
     for idx, user in enumerate(list_user):
         uiid = until.get_value(user, key="iid", default=user)
         payload.update({f"user_iids[{idx}]": uiid})
-    response = self.send("/course/enrol/add-members", payload)
+    response = self.send("/course/enrol/add_members", payload)
     print(response)
 
 
@@ -179,7 +179,7 @@ def resync_score(self, iid_course):
         "sync_options[0]": "progress_course",
         "iid": iid_course,
     }
-    response = self.send("/course/progress/sync-course-progress-by-rubrik", payload)
+    self.send("/course/progress/sync_course_progress_by_rubrik", payload)
 
 
 def save_progress(self, iid_course, item, progress=100, spent_time=500):
@@ -219,7 +219,7 @@ def save_progress(self, iid_course, item, progress=100, spent_time=500):
 
     payload = param_video if item_type == "video" else param_other
     response = self.send("/trckr2/save", payload)
-    print(f"[{item_type}] - {item_name}") if response["success"] else print("Lỗi")
+    print(f"[{item_type}] _ {item_name}") if response["success"] else print("Lỗi")
 
 
 def learn(
@@ -247,3 +247,14 @@ def learn(
             )
         else:
             save_progress(self, iid_course, item, progress, spent_time)
+
+
+def recalculate_progress(self, iid_course, iid_user):
+    payload = {"course_iid": iid_course, "user_iid": iid_user}
+    self.send("/course/progress/recalculate_course_users_progress", payload)
+
+
+def create_sessions_from_template(self, iid_course):
+    payload = {"course_iid": iid_course}
+    response = self.send("/course/session/create-sessions-from-template", payload)
+    print(response)

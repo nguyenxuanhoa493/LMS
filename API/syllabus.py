@@ -1,7 +1,7 @@
 from .until import get_value
 
 
-def detail(self, iid_syllabus):
+def get_detail_of_syllabus(self, iid_syllabus):
     payload = {
         "ntype": "syllabus",
         "depth": "-1",
@@ -53,5 +53,42 @@ def approved(self, id_syllabus):
         "type": "credit",
         "status": "approved",
     }
+    r = self.send("/syllabus/update", payload)
+    print(r["message"])
+
+
+def add_video_youtube(self, iid_sco, video):
+    payload = {
+        "type": "video",
+        "editingItemIid": iid_sco,
+        "name": video["name"],
+        "youtube[id]": video["id"],
+        "youtube[max]": "00:00",
+        "youtube[et]": "00:00",
+        "youtube[st]": "00:00",
+    }
+    r = self.send("/video/new", payload)
+    return r["result"]
+
+
+def update_content_syllabus(self, iid_syllabus, content):
+    syllabus = get_detail_of_syllabus(self, iid_syllabus)
+    payload = {
+        "id": syllabus["id"],
+        "iid": syllabus["iid"],
+        "ntype": "syllabus",
+        "type": "credit",
+        "_sand_step": "children",
+    }
+    for idx, item in enumerate(content):
+        temp = {
+            f"children[{idx}][id]": item["id"],
+            f"children[{idx}][iid]": item["iid"],
+            f"children[{idx}][ntype]": item["ntype"],
+            f"children[{idx}][pid]": iid_syllabus,
+            f"children[{idx}][name]": item["name"],
+            f"children[{idx}][type]": "video",
+        }
+        payload.update(temp)
     r = self.send("/syllabus/update", payload)
     print(r["message"])

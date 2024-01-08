@@ -26,14 +26,14 @@ INFO = {
     },
     "th": {
         "api": "https://taphuan-api.csdl.edu.vn",
-        "password": "taphuan@viettel@2022",
+        "password": "th.vt.23.csdl",
     },
     "evn-old": {
         "api": "https://elearning-api.evn.com.vn",
         "password": "vieted@2022@123",
     },
     "hocngoaingu": {"api": "https://hocngoaingu-api.lotuslms.com", "password": "123"},
-    "bgg": {"api": "https://lms-api.bacgiang.gov.vn", "password": 1},
+    "bgg": {"api": "https://lms-api.bacgiang.gov.vn", "password": "Sbg@2024"},
 }
 
 
@@ -73,7 +73,6 @@ class New:
             "_sand_domain": dmn,
             "_sand_masked": "",
         }
-        self.organizations = {}
         self.user = login(self)
 
     def send(self, url, payload, type="POST", files=[]):
@@ -143,6 +142,7 @@ def login(self, user_code="", password=""):
             "_sand_uid": response["id"],
         }
         self.param.update(info)
+        self.organizations = response["user_organizations"][0]
         if user_code == "root":
             self.param.update({"_sand_domain": "system"})
         print(

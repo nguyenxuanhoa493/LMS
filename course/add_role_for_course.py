@@ -3,7 +3,7 @@ from os.path import join, dirname
 
 sys.path.append(join(dirname(__file__), "..", ""))
 from API import lms
-from API.roles import set_roles
+from API.role import add_role_to_course
 
 list_course = [
     {"iid": 56988202, "name": "Sinh học lớp 7B", "id": "6589c5e3f3561b894700385d"},
@@ -316,4 +316,4 @@ list_course = [
 school = lms.New(dmn="ve", type_dmn="bgg")
 
 for c in list_course:
-    set_roles(school, iid_course=c["iid"], iid_role=56988217)
+    add_role_to_course(school, iid_course=c["iid"], iid_role=56988217)

@@ -22,7 +22,7 @@ def get_value(input_data, key, default=False):
     try:
         return input_data[key]
     except:
-        return default if default else False
+        return default
 
 
 def remove_chars(input_string, chars_need_remove):
@@ -157,3 +157,15 @@ def merge_json_in_folder(path_folder, path_output_file):
         path_file = os.path.join(path_folder, file_name)
         result.extend(load_json(path_file))
     save_json(path_output_file, result)
+
+
+def get_tittle_youtube(link):
+    params = {"format": "json", "url": link}
+    url = "https://www.youtube.com/oembed"
+    query_string = urllib.parse.urlencode(params)
+    url = url + "?" + query_string
+
+    with urllib.request.urlopen(url) as response:
+        response_text = response.read()
+        data = json.loads(response_text.decode())
+    return data["title"]
