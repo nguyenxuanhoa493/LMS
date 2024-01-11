@@ -1,16 +1,13 @@
-a = {
-    "success": True,
-    "message": "Thành công",
-    "is_guest": False,
-    "objects": {"count": 0, "total": 0},
-    "hasSystemMessage": False,
-    "ts": "",
-    "server_ts": 1704729432,
-}
-import sys
-from os.path import join, dirname
+import re
 
-sys.path.append(join(dirname(__file__), "..", ""))
-from API.until import get_value
+# Chuỗi văn bản chứa từ khoá trong dấu ngoặc đơn
+text = "Tạo khoá học (Tạo khoá học) là quan trọng."
 
-print(get_value(input_data=a, key="result", default=[]))
+# Biểu thức chính quy để tìm từ khoá trong dấu ngoặc đơn
+pattern = r"\((.*?)\)"
+
+# Sử dụng re.findall để tìm tất cả các kết quả phù hợp
+matches = re.findall(pattern, text)
+
+# In ra kết quả
+print(matches[0])

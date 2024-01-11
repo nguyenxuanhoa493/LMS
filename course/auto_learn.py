@@ -4,7 +4,6 @@ from random import randint
 
 sys.path.append(join(dirname(__file__), "..", ""))
 from API import lms
-from API.course import resync_score
 
 school = lms.New(dmn="xanhsm", user_code="gsm")
 list_course = [

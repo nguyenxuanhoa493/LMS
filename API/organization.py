@@ -1,7 +1,7 @@
 from .until import get_value
 
 
-def get_list_children_of_organization(self, iid_org):
+def get_sub_organization(self, iid_org):
     payload = {
         "type": "organization",
         "depth": 0,

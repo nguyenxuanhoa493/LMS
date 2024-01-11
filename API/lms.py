@@ -73,6 +73,7 @@ class New:
             "_sand_domain": dmn,
             "_sand_masked": "",
         }
+        self.organizations = 0
         self.user = login(self)
 
     def send(self, url, payload, type="POST", files=[]):

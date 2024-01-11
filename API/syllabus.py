@@ -46,12 +46,13 @@ def clone_syllabus(self, target_dmn, iid_syllabus):
         print(response)
 
 
-def approved(self, id_syllabus):
+def approved(self, id_syllabus, status="approved"):
+    # status: queued or approved
     payload = {
         "id": id_syllabus,
         "_sand_step": "status",
         "type": "credit",
-        "status": "approved",
+        "status": status,
     }
     r = self.send("/syllabus/update", payload)
     print(r["message"])

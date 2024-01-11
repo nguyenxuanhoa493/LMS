@@ -8,10 +8,10 @@ from API.session import attendance_one_user
 
 school = lms.New(dmn="bvl")
 
-iid_course = 13017679
+iid_course = 13252176
 data = school.course(iid_course=iid_course, load_data=True)
-checked = """D1077A3HRV
-D1077A3HRY""".replace(
+checked = """UV4802130328
+UV4802129800""".replace(
     "\n", " "
 ).split(
     " "

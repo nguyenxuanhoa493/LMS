@@ -3,7 +3,7 @@ import sys
 from os.path import join, dirname
 
 sys.path.append(join(dirname(__file__), "..", ""))
-from API import syllabus, attendance, until, session, file, lms
+from API import syllabus, attendance, until, session, file, lms, role, user
 
 
 class Newcourse:
@@ -70,6 +70,12 @@ class Newcourse:
 
     def resync_score(self):
         resync_score(self.school, self.iid)
+
+    def add_new_a_session(self, session):
+        session.add_new_a_session(self.school, self.iid, session)
+
+    def add_teacher_to_course(self, iid_list_teacher=[]):
+        add_teacher_to_course(self.school, self.iid, iid_list_teacher)
 
 
 def get_detail_of_course(self, iid_course):
@@ -251,10 +257,48 @@ def learn(
 
 def recalculate_progress(self, iid_course, iid_user):
     payload = {"course_iid": iid_course, "user_iid": iid_user}
-    self.send("/course/progress/recalculate_course_users_progress", payload)
+    response = self.send("/course/progress/recalculate_course_users_progress", payload)
+    print(response)
 
 
 def create_sessions_from_template(self, iid_course):
     payload = {"course_iid": iid_course}
     response = self.send("/course/session/create-sessions-from-template", payload)
+    print(response)
+
+
+def get_list_teacher_can_add_to_course(self, iid_course):
+    payload = {"course_iid": iid_course}
+    response = self.send("/course/staff/search-staff-to-add-to-course", payload)
+    return until.get_value(input_data=response, key="result", default=[])
+
+
+def add_teacher_to_course(self, iid_course, iid_list_teacher=[]):
+    if iid_list_teacher:
+        list_teacher = [
+            user.get_detail_user(iid_teacher) for iid_teacher in iid_list_teacher
+        ]
+    else:
+        list_teacher = get_list_teacher_can_add_to_course(self, iid_course)
+
+    if not (list_teacher):
+        print("Không có giáo viên")
+        return False
+
+    list_role = role.get_role_can_add_to_course(self, iid_course)
+    if not (list_role):
+        print("Không có quyền")
+        return False
+
+    payload = {"course_iid": iid_course}
+    for idx, teacher in enumerate(list_teacher):
+        temp = {
+            f"o[{idx}][name]": teacher["name"],
+            f"o[{idx}][iid]": teacher["iid"],
+            f"o[{idx}][id]": teacher["id"],
+        }
+        for stt, r in enumerate(list_role):
+            temp.update({f"o[{idx}][roles][{stt}]": r["value"]})
+        payload.update(temp)
+    response = self.send("/course/staff/add-staff", payload)
     print(response)
